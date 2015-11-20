@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>flexify frontend framework</title>
+
+<link href="css/flexify.css" rel="stylesheet" />
+
+<link href="css/demo.css" rel="stylesheet" />
+
+</head>
+ 
+<body class="fx-wrap">
+
+<div class="fx-container fx-container-lg">
+
+	<nav class="fx-menu">
+		<ul>
+			<li class="page_item_has_children"><a href="#">Docs</a>
+				<ul>
+					<li class="page_item_has_children"><a href="#">Grid</a>
+						<ul>
+							<li><a href="#">Grid</a></li>
+							<li><a href="#">Grid</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Columns</a></li>
+				</ul>
+			</li>
+			<li class="page_item_has_children"><a href="#">Links</a>
+				<ul>
+					<li><a href="#">Website</a></li>
+					<li><a href="#">GitHub</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<h1>flexify frontend framework</h1>
+
+	<p>flexify is a responsive and flexible css-framework.</p>
+
+	<h2>flexify features:</h2>
+
+	<ul>
+		<li>normalized initial styles for all elements</li>
+		<li>Bootstrap-like grid (24 columns, responsive, 5 breakpoints)</li>
+		<li>responsive dropdown menu</li>
+		<li>columns helper classes</li>
+		<li>padding and margin helper classes</li>
+	</ul>
+
+	<h3>Breakpoints:</h3>
+
+	<p>-xs- [544px] -sm- [768px] -md- [992px] -lg- [1200px] -xl-</p>
+
+	<h3>Breakpoints in em with 16px base:</h3>
+
+	<p>-xs- [34em] -sm- [48em] -md- [62em] -lg- [75em] -xl-</p>
+
+
+	<p>You need to include flexify.css file into page and add .fx-wrap class to the body element.</p>
+
+	<p>All class-names have fx- prefix and it is safe to use flexify framework with other frameworks on the same page.</p>
+
+	<h3>Grid</h3>
+
+	<p></p>
+
+	<p><a href="http://caniuse.com/#feat=css-mediaqueries">Browsers support</a>: Modern browsers and IE9+</p>
+
+	<div class="fx-row">
+		<div class="fx-col-sm-6 fx-col-xs-4 fx-col-xl-10 fx-demo">fx-col-sm-6 fx-col-xs-4 fx-col-xl-10</div>
+		<div class="fx-col-sm-12 fx-col-xs-4 fx-col-xl-10 fx-demo">fx-col-sm-12 fx-col-xs-4 fx-col-xl-10</div>
+		<div class="fx-col-sm-6 fx-col-xs-16 fx-col-xl-4 fx-demo">fx-col-sm-6 fx-col-xs-16 fx-col-xl-4</div>
+	</div>
+
+	<h3>Columns</h3>
+
+	<p><a href="http://caniuse.com/#feat=multicolumn">Browsers support</a>: Modern browsers and IE10+</p>
+
+	<ul>
+		<li>.fx-columns - 2 columns</li>
+		<li>.fx-columns .fx-columns-3 - 3 columns</li>
+		<li>.fx-columns .fx-columns-4 - 4 columns</li>
+		<li>.fx-columns .fx-columns-5 - 5 columns</li>
+		<li>.fx-columns .fx-columns-6 - 6 columns</li>
+		<li>.fx-columns .fx-columns-7 - 7 columns</li>
+		<li>.fx-columns .fx-columns-8 - 8 columns</li>
+	</ul>
+
+	<div class="fx-columns fx-demo">
+		<h1>Header</h1>
+		<p>Column text.</p>
+		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
+		<h1>Header</h1>
+		<p>Column text.</p>
+		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
+		<h1>Header</h1>
+		<p>Column text.</p>
+		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
+		<h1>Header</h1>
+		<p>Column text.</p>
+		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
+		<h1>Header</h1>
+		<p>Column text.</p>
+		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
+		<h1>Header</h1>
+		<p>Column text.</p>
+		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
+	</div>
+
+</div><!-- .fx-container -->
+
+</body>
+</html>
