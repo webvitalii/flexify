@@ -796,6 +796,52 @@ template {
     }
 }
 
+/* ---------- grid - flexible ---------- */
+
+.fx-flexrow {
+	/*display: -ms-flexbox;
+	display: -webkit-flex;*/
+	display: flex; /* flex | inline-flex */
+
+	/*-ms-flex-direction: row;
+	-webkit-flex-direction: row;*/
+	flex-direction: row; /* row | row-reverse | column | column-reverse */
+
+	flex-wrap: wrap; /* wrap | nowrap | wrap-reverse */
+
+	/*-webkit-justify-content: space-around;
+	/*-ms-justify-content: center;*/
+	justify-content: space-around; /* flex-start | flex-end | center | space-between | space-around */
+
+	/*align-items: stretch; /* flex-start | flex-end | center | baseline | stretch */
+
+	/*align-content: stretch; /* flex-start | flex-end | center | space-between | space-around | stretch */
+}
+.fx-flexcol-xs-1, .fx-flexcol-xs-2, .fx-flexcol-xs-3, .fx-flexcol-xs-4, .fx-flexcol-xs-5, .fx-flexcol-xs-6, .fx-flexcol-xs-7, .fx-flexcol-xs-8,
+.fx-flexcol-xs-9, .fx-flexcol-xs-10, .fx-flexcol-xs-11, .fx-flexcol-xs-12,
+.fx-flexcol-sm-1, .fx-flexcol-sm-2, .fx-flexcol-sm-3, .fx-flexcol-sm-4, .fx-flexcol-sm-5, .fx-flexcol-sm-6, .fx-flexcol-sm-7, .fx-flexcol-sm-8,
+.fx-flexcol-sm-9, .fx-flexcol-sm-10, .fx-flexcol-sm-11, .fx-flexcol-sm-12,
+.fx-flexcol-md-1, .fx-flexcol-md-2, .fx-flexcol-md-3, .fx-flexcol-md-4, .fx-flexcol-md-5, .fx-flexcol-md-6, .fx-flexcol-md-7, .fx-flexcol-md-8,
+.fx-flexcol-md-9, .fx-flexcol-md-10, .fx-flexcol-md-11, .fx-flexcol-md-12,
+.fx-flexcol-lg-1, .fx-flexcol-lg-2, .fx-flexcol-lg-3, .fx-flexcol-lg-4, .fx-flexcol-lg-5, .fx-flexcol-lg-6, .fx-flexcol-lg-7, .fx-flexcol-lg-8,
+.fx-flexcol-lg-9, .fx-flexcol-lg-10, .fx-flexcol-lg-11, .fx-flexcol-lg-12,
+.fx-flexcol-xl-1, .fx-flexcol-xl-2, .fx-flexcol-xl-3, .fx-flexcol-xl-4, .fx-flexcol-xl-5, .fx-flexcol-xl-6, .fx-flexcol-xl-7, .fx-flexcol-xl-8,
+.fx-flexcol-xl-9, .fx-flexcol-xl-10, .fx-flexcol-xl-11, .fx-flexcol-xl-12 {
+	flex-basis: 0%;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.fx-flexcol-xs-1, .fx-flexcol-xs-2, .fx-flexcol-xs-3, .fx-flexcol-xs-4, .fx-flexcol-xs-5, .fx-flexcol-xs-6,
+.fx-flexcol-xs-7, .fx-flexcol-xs-8, .fx-flexcol-xs-9, .fx-flexcol-xs-10, .fx-flexcol-xs-11, .fx-flexcol-xs-12 {
+	flex-basis: 0%;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.fx-flexcol-xs-2 {
+	flex-grow: 2;
+}
+
+
 /* ---------- grid - visibility helpers ---------- */
 
 .fx-hidden-xs-up {
