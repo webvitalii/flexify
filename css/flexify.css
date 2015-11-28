@@ -1166,89 +1166,7 @@ template {
 	caption-side: bottom;
 }
 
-/* ========== helpers ========== */
-
-.fx-clearfix {}
-.fx-clearfix:before,
-.fx-clearfix:after {
-	display: table;
-	content: " ";
-}
-
-.fx-clearfix:after {
-	clear: both;
-}
-
-.fx-text-left {
-	text-align: left;
-}
-
-.fx-text-right {
-	text-align: right;
-}
-
-.fx-text-center {
-	text-align: center;
-}
-
-.fx-text-nowrap {
-	white-space: nowrap;
-}
-
-.fx-text-lowercase {
-	text-transform: lowercase;
-}
-
-.fx-text-uppercase {
-	text-transform: uppercase;
-}
-
-.fx-text-capitalize {
-	text-transform: capitalize;
-}
-
-.fx-text-muted {
-	color: #777;
-}
-
-.fx-center-block {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.fx-pull-right {
-	float: right !important;
-}
-
-.fx-pull-left {
-	float: left !important;
-}
-
-.fx-hide {
-	display: none !important;
-}
-
-.fx-show {
-	display: block !important;
-}
-
-.fx-invisible {
-	visibility: hidden;
-}
-
-.fx-text-hide {
-	color: transparent;
-	text-shadow: none;
-	background-color: transparent;
-	border: 0;
-}
-
-.fx-affix {
-	position: fixed;
-}
-
-/* ---------- helpers - columns ---------- */
+/* ========== columns ========== */
 
 .fx-columns {
 	-webkit-column-count: 2;
@@ -1298,6 +1216,102 @@ template {
 .fx-columns .fx-column {
 	-webkit-column-break-inside: avoid;
 	break-inside: avoid;
+}
+
+/* ========== helpers ========== */
+
+.fx-clearfix {}
+.fx-clearfix:before,
+.fx-clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.fx-clearfix:after {
+	clear: both;
+}
+
+/* ---------- helpers - text ---------- */
+
+.fx-text-left {
+	text-align: left;
+}
+
+.fx-text-right {
+	text-align: right;
+}
+
+.fx-text-center {
+	text-align: center;
+}
+
+.fx-text-justify {
+	text-align: justify;
+}
+
+.fx-text-nowrap {
+	white-space: nowrap;
+}
+
+.fx-text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.fx-text-lowercase {
+	text-transform: lowercase;
+}
+
+.fx-text-uppercase {
+	text-transform: uppercase;
+}
+
+.fx-text-capitalize {
+	text-transform: capitalize;
+}
+
+.fx-text-hide {
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+.fx-text-grey {
+	color: #777;
+}
+
+/* ---------- helpers - position/visibility ---------- */
+
+.fx-center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.fx-pull-right {
+	float: right !important;
+}
+
+.fx-pull-left {
+	float: left !important;
+}
+
+.fx-hide {
+	display: none !important;
+}
+
+.fx-show {
+	display: block !important;
+}
+
+.fx-invisible {
+	visibility: hidden;
+}
+
+.fx-affix {
+	position: fixed;
 }
 
 /* ---------- helpers - margin ---------- */
