@@ -1282,7 +1282,7 @@ template {
 	color: #777;
 }
 
-/* ---------- helpers - position/visibility ---------- */
+/* ---------- helpers - position ---------- */
 
 .fx-center-block {
 	display: block;
@@ -1298,6 +1298,12 @@ template {
 	float: left !important;
 }
 
+.fx-affix {
+	position: fixed;
+}
+
+/* ---------- helpers - visibility ---------- */
+
 .fx-hide {
 	display: none !important;
 }
@@ -1308,10 +1314,6 @@ template {
 
 .fx-invisible {
 	visibility: hidden;
-}
-
-.fx-affix {
-	position: fixed;
 }
 
 /* ---------- helpers - margin ---------- */
