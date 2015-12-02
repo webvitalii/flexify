@@ -840,6 +840,36 @@ template {
 .fx-flexcol-xs-2 {
 	flex-grow: 2;
 }
+.fx-flexcol-xs-3 {
+	flex-grow: 3;
+}
+.fx-flexcol-xs-4 {
+	flex-grow: 4;
+}
+.fx-flexcol-xs-5 {
+	flex-grow: 5;
+}
+.fx-flexcol-xs-6 {
+	flex-grow: 6;
+}
+.fx-flexcol-xs-7 {
+	flex-grow: 7;
+}
+.fx-flexcol-xs-8 {
+	flex-grow: 8;
+}
+.fx-flexcol-xs-9 {
+	flex-grow: 9;
+}
+.fx-flexcol-xs-10 {
+	flex-grow: 10;
+}
+.fx-flexcol-xs-11 {
+	flex-grow: 11;
+}
+.fx-flexcol-xs-12 {
+	flex-grow: 12;
+}
 
 
 /* ---------- grid - visibility helpers ---------- */
