@@ -1,7 +1,7 @@
 /*!
  * flexify frontend framework v0.1
  * http://webio.ca/
- * Licensed under GPLv3 (http://www.gnu.org/licenses/gpl.html)
+ * Licensed under GPLv3 http://www.gnu.org/licenses/gpl.html
  */
 
 /* ========== normalize.css ========== */
@@ -383,6 +383,49 @@ template {
 
 /* ---------- grid - cols ---------- */
 
+.fx-col-1, .fx-col-2, .fx-col-3, .fx-col-4, .fx-col-5, .fx-col-6,
+.fx-col-7, .fx-col-8, .fx-col-9, .fx-col-10, .fx-col-11, .fx-col-12 {
+	float: left;
+}
+.fx-col-1 {
+	width: 8.3333%;
+}
+.fx-col-2 {
+	width: 16.6667%;
+}
+.fx-col-3 {
+	width: 25%;
+}
+.fx-col-4 {
+	width: 33.3333%;
+}
+.fx-col-5 {
+	width: 41.6667%;
+}
+.fx-col-6 {
+	width: 50%;
+}
+.fx-col-7 {
+	width: 58.3333%;
+}
+.fx-col-8 {
+	width: 66.6667%;
+}
+.fx-col-9 {
+	width: 75%;
+}
+.fx-col-10 {
+	width: 83.3333%;
+}
+.fx-col-11 {
+	width: 91.6667%;
+}
+.fx-col-12 {
+	width: 100%;
+}
+
+/* ---------- grid - cols responsive ---------- */
+
 [class*='fx-col-xs-'], [class*='fx-col-sm-'], [class*='fx-col-md-'], [class*='fx-col-lg-'], [class*='fx-col-xl-'] {
 	position: relative;
 	min-height: 1px;
@@ -613,12 +656,57 @@ template {
 
 	/*align-content: stretch; /* flex-start | flex-end | center | space-between | space-around | stretch */
 }
+
+/* ---------- grid - flexible - cols ---------- */
+
+.fx-box-1, .fx-box-2, .fx-box-3, .fx-box-4, .fx-box-5, .fx-box-6,
+.fx-box-7, .fx-box-8, .fx-box-9, .fx-box-10, .fx-box-11, .fx-box-12 {
+	flex-basis: 0%;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.fx-box-2 {
+	flex-grow: 2;
+}
+.fx-box-3 {
+	flex-grow: 3;
+}
+.fx-box-4 {
+	flex-grow: 4;
+}
+.fx-box-5 {
+	flex-grow: 5;
+}
+.fx-box-6 {
+	flex-grow: 6;
+}
+.fx-box-7 {
+	flex-grow: 7;
+}
+.fx-box-8 {
+	flex-grow: 8;
+}
+.fx-box-9 {
+	flex-grow: 9;
+}
+.fx-box-10 {
+	flex-grow: 10;
+}
+.fx-box-11 {
+	flex-grow: 11;
+}
+.fx-box-12 {
+	flex-grow: 12;
+}
+
+/* ---------- grid - flexible - cols - responsive ---------- */
+
 [class*='fx-box-xs-'], [class*='fx-box-sm-'], [class*='fx-box-md-'], [class*='fx-box-lg-'], [class*='fx-box-xl-'] {
 	flex-basis: 0%;
 	flex-grow: 1;
 	flex-shrink: 1;
 }
-[class*='fx-box-xs-'] {
+.fx-box-xs-1 {
 	flex-basis: 0%;
 	flex-grow: 1;
 	flex-shrink: 1;
