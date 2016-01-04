@@ -1,6 +1,7 @@
 == flexify - frontend framework ==
 
 Responsive and flexible frontend framework.
+http://flexify.webio.ca/
 
 == to-do: ==
 
