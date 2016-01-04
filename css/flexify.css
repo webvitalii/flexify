@@ -984,9 +984,9 @@ template {
 
 .fx-wrap .fx-btn,
 .fx-wrap button,
-.fx-wrap input[type="button"],
-.fx-wrap input[type="reset"],
-.fx-wrap input[type="submit"] {
+.fx-wrap [type="button"],
+.fx-wrap [type="reset"],
+.fx-wrap [type="submit"] {
 	display: inline-block;
 	cursor: pointer;
 	padding: 6px 12px;
@@ -1002,22 +1002,45 @@ template {
 	border: 1px solid #d5d5d5;
 	border-radius: 3px;
 	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 .fx-wrap .fx-btn:hover,
 .fx-wrap .fx-btn:active,
 .fx-wrap button:hover,
 .fx-wrap button:active,
-.fx-wrap input[type="button"]:hover,
-.fx-wrap input[type="button"]:active,
-.fx-wrap input[type="reset"]:hover,
-.fx-wrap input[type="reset"]:active,
-.fx-wrap input[type="submit"]:hover,
-.fx-wrap input[type="submit"]:active {
+.fx-wrap [type="submit"]:hover,
+.fx-wrap [type="submit"]:active,
+.fx-wrap [type="button"]:hover,
+.fx-wrap [type="button"]:active,
+.fx-wrap [type="reset"]:hover,
+.fx-wrap [type="reset"]:active {
 	text-decoration: none;
-	background-color: #ddd;
+	/*background-color: #ddd;
 	background-image: linear-gradient(#eee, #ddd);
-	border-color: #ccc;
+	border-color: #ccc;*/
+	-webkit-filter: brightness(85%);
+	filter: brightness(85%);
+	transition: all 0.3s ease;
+}
+
+.fx-wrap .fx-btn-red {
+	color: #fff;
+	background-color: #c12e2a;
+	background-image: linear-gradient(#d9534f, #c12e2a);
+	border-color: #b92c28;
+}
+.fx-wrap .fx-btn-green {
+	color: #fff;
+	background-color: #60b044;
+	background-image: linear-gradient(#8add6d, #60b044);
+	border-color: #5ca941;
+}
+.fx-wrap .fx-btn-blue {
+	color: #fff;
+	background-color: #265a88;
+	background-image: linear-gradient(#337ab7, #265a88);
+	border-color: #245580;
 }
 
 .fx-wrap button[disabled],
