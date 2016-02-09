@@ -13,3 +13,5 @@
 <body class="fx-wrap">
 
 <div class="fx-container fx-container-lg">
+
+	<div class="fx-box">
