@@ -14,4 +14,4 @@
 
 <div class="fx-container fx-container-lg">
 
-	<div class="fx-box">
+	<div class="fx-p-a">

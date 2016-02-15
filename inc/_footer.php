@@ -1,5 +1,5 @@
 
-	</div><!-- .fx-box -->
+	</div><!-- .fx-p-a -->
 
 </div><!-- .fx-container -->
 
