@@ -53,5 +53,4 @@
 		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%</div>
 	</div>
 
-
-<?php include('inc/_header.php'); ?>
+<?php include('inc/_footer.php'); ?>

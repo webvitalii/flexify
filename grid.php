@@ -20,5 +20,4 @@
 		<div class="fx-col-sm-3 fx-col-xs-8 fx-col-xl-2 fx-p-a fx-demo">.fx-col-sm-3 .fx-col-xs-8 .fx-col-xl-2</div>
 	</div>
 
-
-<?php include('inc/_header.php'); ?>
+<?php include('inc/_footer.php'); ?>
