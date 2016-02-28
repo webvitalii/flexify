@@ -2,11 +2,11 @@
 
 <?php include('inc/_menu.php'); ?>
 
-	<h1>flexify frontend framework</h1>
+	<h1>Flexify frontend framework</h1>
 
-	<p>flexify is a responsive and flexible css-framework.</p>
+	<p>Flexify is a responsive and flexible css-framework.</p>
 
-	<h2>flexify features:</h2>
+	<h2>Flexify features:</h2>
 
 	<ul>
 		<li>normalized initial styles for all elements</li>
@@ -23,7 +23,7 @@
 
 	<p>You need to include flexify.css file into page and add .fx-wrap class to the body element.</p>
 
-	<p>All class-names have fx- prefix and it is safe to use flexify framework with other frameworks on the same page.</p>
+	<p>All class-names have fx- prefix and it is safe to use Flexify framework with other frameworks on the same page.</p>
 
 	<h3>Grid</h3>
 
