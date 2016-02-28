@@ -743,6 +743,25 @@ template {
 	flex-grow: 12;
 }
 
+/* ---------- grid - flexible - alignment ---------- */
+
+.fx-box-align-top {
+	-webkit-align-self: flex-start;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.fx-box-align-middle {
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.fx-box-align-bottom {
+	-webkit-align-self: flex-end;
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+}
 
 /* ---------- grid - visibility helpers ---------- */
 

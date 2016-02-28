@@ -49,7 +49,7 @@
 
 	<div class="fx-grid">
 		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%<br> .fx-p-a - adds inner padding</div>
-		<div class="fx-box-2 fx-p-a fx-demo">.fx-box-2 - 2/4 = 50%;</div>
+		<div class="fx-box-2 fx-p-a fx-demo">.fx-box-2 - 2/4 = 50%</div>
 		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%</div>
 	</div>
 
