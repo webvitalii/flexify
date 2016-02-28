@@ -1,8 +1,15 @@
 <!doctype html>
 <html>
 <head>
+<?php
+$title = basename( $_SERVER['PHP_SELF'], '.php' );
+$title = str_replace( '_', ' ', $title );
+$title = str_replace( '-', ' ', $title );
+//$title = ucfirst( $title );
+$title = ucwords( $title );
+?>
 	<meta charset="utf-8" />
-	<title>flexify frontend framework</title>
+	<title><?php echo $title; ?> | flexify frontend framework</title>
 
 	<link href="css/flexify.css" rel="stylesheet" />
 
