@@ -3,7 +3,19 @@
 <?php include('inc/_menu.php'); ?>
 
 	<h1>Forms</h1>
-
+	
+	<h2>Form inputs</h2>
+	
+	<form>
+		
+		<p>Default text input: <input type="text" value="text input" /></p>
+		
+		<p>Text input with class .fx-form-control: <input type="text" class="fx-form-control" value="text input" /></p>
+		
+		<p>Disabled text input with class .fx-form-control: <input type="text" class="fx-form-control" value="disabled input" disabled="disabled" /></p>
+		
+	</form>
+	
 	<h2>Form buttons</h2>
 
 	<form>

@@ -986,16 +986,65 @@ template {
 	overflow: auto;
 }
 
+.fx-wrap select {
+	text-transform: none;
+}
+
 .fx-wrap input[type="search"] {
 	-webkit-appearance: none;
 }
+
+/* ========== forms - inputs ========== */
+
+.fx-wrap .fx-form-control,
+.fx-wrap [type="text"],
+.fx-wrap [type="search"],
+.fx-wrap [type="email"],
+.fx-wrap [type="url"],
+.fx-wrap [type="tel"],
+.fx-wrap [type="number"],
+.fx-wrap [type="range"],
+.fx-wrap [type="date"],
+.fx-wrap [type="month"],
+.fx-wrap [type="week"],
+.fx-wrap [type="time"],
+.fx-wrap [type="datetime"],
+.fx-wrap [type="datetime-local"],
+.fx-wrap [type="color"] {
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #333;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #555;
+	border-radius: 3px;
+}
+
+.fx-form-control:focus {
+	border-color: #337ab7;
+	outline: none;
+}
+
+.fx-wrap .fx-form-control:disabled,
+.fx-wrap .fx-form-control[readonly],
+.fx-wrap fieldset[disabled] .fx-form-control {
+	background-color: #eceeef;
+	opacity: 1;
+}
+
+.fx-wrap .fx-form-control[disabled],
+.fx-wrap fieldset[disabled] .fx-form-control {
+	cursor: not-allowed;
+}
+
+/* ========== forms - buttons ========== */
 
 .fx-wrap button {
 	overflow: visible;
 }
 
-.fx-wrap button,
-.fx-wrap select {
+.fx-wrap button {
 	text-transform: none;
 }
 
