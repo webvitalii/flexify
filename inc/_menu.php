@@ -1,4 +1,4 @@
-<nav class="fx-menu">
+<nav class="fx-menu fx-menu-dark">
 	<ul>
 		<li><a href="index.php">Flexify</a></li>
 		<li class="page_item_has_children"><a href="grid.php">Docs</a>
@@ -8,6 +8,7 @@
 			</ul>
 		</li>
 		<li><a href="forms.php">Forms</a></li>
+		<li><a href="menu.php">Menu</a></li>
 		<li><a href="columns.php">Columns</a></li>
 		<li><a href="helpers.php">Helpers</a></li>
 		<li class="page_item_has_children"><a href="#">Links</a>
