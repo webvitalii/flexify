@@ -52,5 +52,18 @@
 		<div class="fx-box-2 fx-p-a fx-demo">.fx-box-2 - 2/4 = 50%</div>
 		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%</div>
 	</div>
-
+	
+	<h2>Frequently Asking Questions</h2>
+	
+	<h3>Q: Which browsers are supported?</h3>
+	
+	<p>A: Flexify support the latest versions of Chrome, Firefox, Internet Explorer 11 and Edge.</p>
+	
+	<h3>Q: What about old versions of Internet Explorer?</h3>
+	
+	<p>A: Flexify is a hack-free FE framework and it should be working fine in the browsers that are activity supported.
+	MicroSoft supports only the Internet Explorer 11 and above
+	https://www.microsoft.com/en-ca/WindowsForBusiness/End-of-IE-support
+	</p>
+	
 <?php include('inc/_footer.php'); ?>
