@@ -949,7 +949,16 @@ template {
 	color: #333;
 }
 
-.fx-menu-light li a:hover {
+.fx-menu-light li a:hover, 
+.fx-menu-light li a:focus,
+.fx-menu-light li.current_page_item > a, 
+.fx-menu-light li.current-page-item > a,
+.fx-menu-light li.current_menu_item > a, 
+.fx-menu-light li.current-menu-item > a,
+.fx-menu-light li.current_page_ancestor > a, 
+.fx-menu-light li.current-page-ancestor > a,
+.fx-menu-light li.current_menu_ancestor > a, 
+.fx-menu-light li.current-menu-ancestor > a {
 	color: #111;
 	background-color: #ddd;
 }
@@ -975,7 +984,16 @@ template {
 	color: #333;
 }
 
-.fx-menu-light-transparent li a:hover {
+.fx-menu-light-transparent li a:hover, 
+.fx-menu-light-transparent li a:focus,
+.fx-menu-light-transparent li.current_page_item > a, 
+.fx-menu-light-transparent li.current-page-item > a,
+.fx-menu-light-transparent li.current_menu_item > a, 
+.fx-menu-light-transparent li.current-menu-item > a,
+.fx-menu-light-transparent li.current_page_ancestor > a, 
+.fx-menu-light-transparent li.current-page-ancestor > a,
+.fx-menu-light-transparent li.current_menu_ancestor > a, 
+.fx-menu-light-transparent li.current-menu-ancestor > a {
 	color: #111;
 	background-color: #ddd;
 }
@@ -1001,7 +1019,16 @@ template {
 	color: #eee;
 }
 
-.fx-menu-dark li a:hover {
+.fx-menu-dark li a:hover, 
+.fx-menu-dark li a:focus,
+.fx-menu-dark li.current_page_item > a, 
+.fx-menu-dark li.current-page-item > a,
+.fx-menu-dark li.current_menu_item > a, 
+.fx-menu-dark li.current-menu-item > a,
+.fx-menu-dark li.current_page_ancestor > a, 
+.fx-menu-dark li.current-page-ancestor > a,
+.fx-menu-dark li.current_menu_ancestor > a, 
+.fx-menu-dark li.current-menu-ancestor > a {
 	color: #fff;
 	background-color: #111;
 }
@@ -1027,7 +1054,16 @@ template {
 	color: #eee;
 }
 
-.fx-menu-dark-transparent li a:hover {
+.fx-menu-dark-transparent li a:hover, 
+.fx-menu-dark-transparent li a:focus,
+.fx-menu-dark-transparent li.current_page_item > a, 
+.fx-menu-dark-transparent li.current-page-item > a,
+.fx-menu-dark-transparent li.current_menu_item > a, 
+.fx-menu-dark-transparent li.current-menu-item > a,
+.fx-menu-dark-transparent li.current_page_ancestor > a, 
+.fx-menu-dark-transparent li.current-page-ancestor > a,
+.fx-menu-dark-transparent li.current_menu_ancestor > a, 
+.fx-menu-dark-transparent li.current-menu-ancestor > a {
 	color: #fff;
 	background-color: #111;
 }
