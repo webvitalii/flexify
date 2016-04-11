@@ -9,6 +9,7 @@
 		</li>
 		<li><a href="forms.php">Forms</a></li>
 		<li><a href="menu.php">Menu</a></li>
+		<li><a href="typography.php">Typography</a></li>
 		<li><a href="columns.php">Columns</a></li>
 		<li><a href="helpers.php">Helpers</a></li>
 		<li class="page_item_has_children"><a href="#">Links</a>
