@@ -37,4 +37,4 @@
 		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
 	</div>
 
-<?php include('inc/_header.php'); ?>
+<?php include('inc/_footer.php'); ?>

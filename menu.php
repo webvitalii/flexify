@@ -71,4 +71,4 @@
 	</div>
 	
 
-<?php include('inc/_header.php'); ?>
+<?php include('inc/_footer.php'); ?>
