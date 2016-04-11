@@ -10,9 +10,10 @@
 		<li><a href="forms.php">Forms</a></li>
 		<li><a href="menu.php">Menu</a></li>
 		<li><a href="typography.php">Typography</a></li>
+		<li><a href="tables.php">Tables</a></li>
 		<li><a href="columns.php">Columns</a></li>
 		<li><a href="helpers.php">Helpers</a></li>
-		<li class="page_item_has_children"><a href="#">Links</a>
+		<li class="page_item_has_children"><a href="http://flexify.webio.ca/" target="_blank">Links</a>
 			<ul>
 				<li><a href="http://flexify.webio.ca/" target="_blank">Website</a></li>
 				<li><a href="https://github.com/webvitaly/flexify" target="_blank">GitHub</a></li>
