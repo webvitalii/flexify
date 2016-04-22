@@ -1289,6 +1289,7 @@ template {
 	width: 100%;
 	max-width: 100%;
 	margin-bottom: 15px;
+	border-top: 2px solid #eceeef;
 }
 
 .fx-wrap table th {
@@ -1297,7 +1298,7 @@ template {
 
 .fx-wrap table th,
 .fx-wrap table td {
-	padding: .75rem;
+	padding: 4px;
 	line-height: 1.5;
 	vertical-align: top;
 	border-top: 1px solid #eceeef;
@@ -1305,12 +1306,6 @@ template {
 
 .fx-wrap table thead th {
 	vertical-align: bottom;
-	border-bottom: 2px solid #eceeef;
-}
-
-.fx-wrap table td,
-.fx-wrap table th {
-	padding: 0;
 }
 
 .fx-wrap table caption {
