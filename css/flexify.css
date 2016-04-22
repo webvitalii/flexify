@@ -1292,16 +1292,26 @@ template {
 	border-top: 2px solid #eceeef;
 }
 
-.fx-wrap table th {
+.fx-wrap table caption,
+.fx-wrap table th,
+.fx-wrap table td {
+	font-weight: normal;
 	text-align: left;
+	vertical-align: top;
 }
 
 .fx-wrap table th,
 .fx-wrap table td {
+	font-weight: normal;
 	padding: 4px;
 	line-height: 1.5;
+	text-align: left;
 	vertical-align: top;
 	border-top: 1px solid #eceeef;
+}
+
+.fx-wrap table th {
+	font-weight: bold;
 }
 
 .fx-wrap table thead th {
@@ -1311,7 +1321,6 @@ template {
 .fx-wrap table caption {
 	padding-top: 12px;
 	padding-bottom: 12px;
-	text-align: left;
 	caption-side: bottom;
 }
 
