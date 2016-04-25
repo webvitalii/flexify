@@ -1,7 +1,5 @@
 <?php include('inc/_header.php'); ?>
 
-<?php include('inc/_menu.php'); ?>
-
 	<h1>Tables</h1>
 	
 	<h3>Add class .fx-table to the html table element</h3>

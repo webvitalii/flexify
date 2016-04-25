@@ -26,4 +26,8 @@ if( $title == 'Index' ) {
 
 <div class="fx-container fx-container-lg">
 
-	<div class="fx-p-a">
+	<?php include('_menu.php'); ?>
+
+	<div class="fx-grid">
+		
+		<div class="fx-box-3 fx-p-a">

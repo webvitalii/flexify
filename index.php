@@ -1,7 +1,5 @@
 <?php include('inc/_header.php'); ?>
 
-<?php include('inc/_menu.php'); ?>
-
 	<h1>Flexify frontend framework</h1>
 
 	<p>Flexify is a responsive and flexible css-framework.</p>

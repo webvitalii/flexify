@@ -1,7 +1,5 @@
 <?php include('inc/_header.php'); ?>
 
-<?php include('inc/_menu.php'); ?>
-
 	<h1>Menu</h1>
 	
 	<h3>Menu light: .fx-menu .fx-menu-light</h3>

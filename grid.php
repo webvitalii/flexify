@@ -1,7 +1,5 @@
 <?php include('inc/_header.php'); ?>
 
-<?php include('inc/_menu.php'); ?>
-
 	<h1>Grid</h1>
 
 	<div class="fx-row">

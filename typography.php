@@ -1,7 +1,5 @@
 <?php include('inc/_header.php'); ?>
 
-<?php include('inc/_menu.php'); ?>
-
 	<h1>Typography</h1>
 	
 	<h3>Headers</h3>

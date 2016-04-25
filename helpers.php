@@ -1,7 +1,5 @@
 <?php include('inc/_header.php'); ?>
 
-<?php include('inc/_menu.php'); ?>
-
 	<h1>Helper classes</h1>
 	
 	<h2>Text helper classes</h2>

@@ -1,7 +1,5 @@
 <?php include('inc/_header.php'); ?>
 
-<?php include('inc/_menu.php'); ?>
-
 	<h1>Flexible Grid</h1>
 
 	<p><a href="http://caniuse.com/#search=flexbox" target="_blank">Browsers support</a>: Modern browsers and IE12+</p>
