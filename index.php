@@ -53,6 +53,10 @@
 	
 	<h2>Frequently Asking Questions</h2>
 	
+	<h3>Q: What is the license?</h3>
+	
+	<p>A: The license is <a href="https://opensource.org/licenses/mit-license.php">MIT Open Source</a>.</p>
+	
 	<h3>Q: Which browsers are supported?</h3>
 	
 	<p>A: Flexify support the latest versions of Chrome, Firefox, Internet Explorer 11 and Edge.</p>
