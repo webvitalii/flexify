@@ -15,7 +15,9 @@ if( $title == 'Index' ) {
 ?>
 	<meta charset="utf-8" />
 	<title><?php echo $title; ?>Flexify frontend framework</title>
-
+	
+	<link rel="shortcut icon" type="image/x-icon" href="//favicon.ico" />
+	
 	<link href="css/flexify.css" rel="stylesheet" />
 
 	<link href="css/demo.css" rel="stylesheet" />
