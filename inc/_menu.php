@@ -36,6 +36,8 @@
 						<li><a href="//github.com/webvitalii/flexify" target="_blank">Flexify on GitHub</a></li>
 					</ul>
 				</li>
+				
+				<li><a href="faq.php">FAQ</a></li>
 			</ul>
 		</nav><!-- .fx-menu -->
 

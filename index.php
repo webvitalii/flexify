@@ -3,15 +3,38 @@
 	<h1>Flexify frontend framework</h1>
 
 	<p>Flexify is a responsive and flexible css-framework.</p>
-
+	
+	<div class="fx-grid">
+		<div class="fx-box-1 fx-p-a fx-text-center">
+			<i class="ionicon ion-social-html5 fx-icon fx-icon-40"></i>
+			<i class="ionicon ion-social-css3 fx-icon fx-icon-40"></i>
+			<i class="ionicon ion-social-chrome fx-icon fx-icon-40"></i>
+			<h3>Uses latest web features and works in every modern browser</h3>
+		</div>
+		<div class="fx-box-1 fx-p-a fx-text-center">
+			<!-- <i class="ionicon ion-ios-monitor-outline fx-icon fx-icon-40"></i>-->
+			<i class="ionicon ion-monitor fx-icon fx-icon-40"></i>
+			<!-- <i class="ionicon ion-laptop fx-icon fx-icon-40"></i>-->
+			<i class="ionicon ion-ipad fx-icon fx-icon-40"></i>
+			<i class="ionicon ion-iphone fx-icon fx-icon-40"></i>
+			<h3>Responsive: works on every device</h3>
+		</div>
+		<div class="fx-box-1 fx-p-a fx-text-center">
+			<i class="ionicon ion-social-github fx-icon fx-icon-40"></i>
+			<i class="ionicon ion-code fx-icon fx-icon-40"></i>
+			<h3>Open-source and hack-free</h3>
+		</div>
+	</div><!-- .fx-grid -->
+	
 	<h2>Flexify features:</h2>
 
 	<ul>
 		<li>normalized initial styles for all elements</li>
-		<li>Bootstrap-like grid (12 columns, responsive, 5 breakpoints)</li>
-		<li>responsive dropdown menu</li>
-		<li>columns helper classes</li>
-		<li>padding and margin helper classes</li>
+		<li><a href="grid-flexible.php">Flexible Grid (powered by flexbox)</a></li>
+		<li><a href="grid.php">Bootstrap-like grid (12 columns, responsive, 5 breakpoints)</a></li>
+		<li><a href="menu.php">responsive dropdown CSS menu</a></li>
+		<li><a href="columns.php">columns helper classes</a></li>
+		<li><a href="helpers.php">text, padding and margin helper classes</a></li>
 	</ul>
 
 	<h3>Breakpoints:</h3>
@@ -23,49 +46,5 @@
 
 	<p>All class-names have fx- prefix and it is safe to use Flexify framework with other frameworks on the same page.</p>
 
-	<h3>Grid</h3>
 
-	<div class="fx-row">
-		<div class="fx-col-3 fx-p-a fx-demo">.fx-col-3 - 3/12 = 25%<br> .fx-p-a - adds inner padding</div>
-		<div class="fx-col-6 fx-p-a fx-demo">.fx-col-6 - 6/12 = 50%</div>
-		<div class="fx-col-3 fx-p-a fx-demo">.fx-col-3 - 3/12 = 25%</div>
-	</div>
-
-	<h3>Grid - responsive</h3>
-
-	<p><a href="http://caniuse.com/#feat=css-mediaqueries" target="_blank">Browsers support</a>: Modern browsers and IE9+</p>
-
-	<div class="fx-row">
-		<div class="fx-col-sm-3 fx-col-xs-2 fx-col-xl-5 fx-p-a fx-demo">.fx-col-sm-3 .fx-col-xs-2 .fx-col-xl-5<br> .fx-p-a - adds inner padding</div>
-		<div class="fx-col-sm-6 fx-col-xs-2 fx-col-xl-5 fx-p-a fx-demo">.fx-col-sm-6 .fx-col-xs-2 .fx-col-xl-5</div>
-		<div class="fx-col-sm-3 fx-col-xs-8 fx-col-xl-2 fx-p-a fx-demo">.fx-col-sm-3 .fx-col-xs-8 .fx-col-xl-2</div>
-	</div>
-
-	<h3>Flexible Grid</h3>
-
-	<p><a href="http://caniuse.com/#search=flexbox" target="_blank">Browsers support</a>: Modern browsers and IE12+</p>
-
-	<div class="fx-grid">
-		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%<br> .fx-p-a - adds inner padding</div>
-		<div class="fx-box-2 fx-p-a fx-demo">.fx-box-2 - 2/4 = 50%</div>
-		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%</div>
-	</div>
-	
-	<h2>Frequently Asking Questions</h2>
-	
-	<h3>Q: What is the license?</h3>
-	
-	<p>A: The license is <a href="https://opensource.org/licenses/mit-license.php">MIT Open Source</a>.</p>
-	
-	<h3>Q: Which browsers are supported?</h3>
-	
-	<p>A: Flexify support the latest versions of Chrome, Firefox, Internet Explorer 11 and Edge.</p>
-	
-	<h3>Q: What about old versions of Internet Explorer?</h3>
-	
-	<p>A: Flexify is a hack-free FE framework and it should be working fine in the browsers that are activity supported.
-	MicroSoft supports only the Internet Explorer 11 and above
-	https://www.microsoft.com/en-ca/WindowsForBusiness/End-of-IE-support
-	</p>
-	
 <?php include('inc/_footer.php'); ?>
