@@ -1,8 +1,8 @@
 <?php include('inc/_header.php'); ?>
 
-	<h1>Flexify frontend framework</h1>
+	<h1 class="fx-text-center">Flexify frontend framework</h1>
 
-	<p>Flexify is a responsive and flexible css-framework.</p>
+	<h3 class="fx-text-center">Responsive and flexible css-framework</h3>
 	
 	<div class="fx-grid">
 		<div class="fx-box-1 fx-p-a fx-text-center">
@@ -26,6 +26,7 @@
 		</div>
 	</div><!-- .fx-grid -->
 	
+	
 	<h2>Flexify features:</h2>
 
 	<ul>
@@ -35,16 +36,18 @@
 		<li><a href="menu.php">responsive dropdown CSS menu</a></li>
 		<li><a href="columns.php">columns helper classes</a></li>
 		<li><a href="helpers.php">text, padding and margin helper classes</a></li>
+		<li>All class-names have fx- prefix and it is safe to use Flexify framework with other frameworks on the same page.</li>
 	</ul>
-
+	
+	
 	<h3>Breakpoints:</h3>
 
 	<p>-xs- [544px] -sm- [768px] -md- [992px] -lg- [1200px] -xl-</p>
-
-
+	
+	
+	<h3>Usage:</h3>
+	
 	<p>You need to include flexify.css file into page and add .fx-wrap class to the body element.</p>
-
-	<p>All class-names have fx- prefix and it is safe to use Flexify framework with other frameworks on the same page.</p>
 
 
 <?php include('inc/_footer.php'); ?>
