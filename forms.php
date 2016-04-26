@@ -18,45 +18,49 @@
 
 	<form>
 		<p>
-			buttons:
+			Buttons:
 			<button>button</button>
 			<button class="fx-btn">button + .fx-btn</button>
 		</p>
 		<p>
-			submit inputs:
+			Submit inputs:
 			<input type="submit" value="submit" />
 			<input class="fx-btn" type="submit" value="submit + .fx-btn" />
 		</p>
+		
 		<p>
-			red buttons:
+			Primary buttons:
 			<button>button</button>
-			<button class="fx-btn fx-btn-red">button + .fx-btn + .fx-btn-red</button>
+			<button class="fx-btn fx-btn-primary">button + .fx-btn + .fx-btn-primary</button>
 		</p>
 		<p>
-			red submit inputs:
+			Primary submit inputs:
 			<input type="submit" value="submit" />
-			<input class="fx-btn fx-btn-red" type="submit" value="submit + .fx-btn + .fx-btn-red" />
+			<input class="fx-btn fx-btn-primary" type="submit" value="submit + .fx-btn + .fx-btn-primary" />
 		</p>
+		
 		<p>
-			green buttons:
+			Success buttons:
 			<button>button</button>
-			<button class="fx-btn fx-btn-green">button + .fx-btn + .fx-btn-green</button>
+			<button class="fx-btn fx-btn-success">button + .fx-btn + .fx-btn-success</button>
 		</p>
 		<p>
-			green submit inputs:
+			Success submit inputs:
 			<input type="submit" value="submit" />
-			<input class="fx-btn fx-btn-green" type="submit" value="submit + .fx-btn + .fx-btn-green" />
+			<input class="fx-btn fx-btn-success" type="submit" value="submit + .fx-btn + .fx-btn-success" />
 		</p>
+		
 		<p>
-			blue buttons:
+			Danger buttons:
 			<button>button</button>
-			<button class="fx-btn fx-btn-blue">button + .fx-btn + .fx-btn-blue</button>
+			<button class="fx-btn fx-btn-danger">button + .fx-btn + .fx-btn-danger</button>
 		</p>
 		<p>
-			blue submit inputs:
+			Danger submit inputs:
 			<input type="submit" value="submit" />
-			<input class="fx-btn fx-btn-blue" type="submit" value="submit + .fx-btn + .fx-btn-blue" />
+			<input class="fx-btn fx-btn-danger" type="submit" value="submit + .fx-btn + .fx-btn-danger" />
 		</p>
+
 	</form>
 
 <?php include('inc/_footer.php'); ?>

@@ -2,15 +2,17 @@
 
 	<h1>Flexible Grid</h1>
 
-	<p><a href="http://caniuse.com/#search=flexbox" target="_blank">Browsers support</a>: Modern browsers and IE12+</p>
+	<p><a href="//caniuse.com/#search=flexbox" target="_blank">Browsers support</a>: Modern browsers and IE12+</p>
 
+	<p>Grid with equal height columns. Pure CSS, no JavaScript used.</p>
+	
 	<div class="fx-grid">
 		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%<br> .fx-p-a - adds inner padding</div>
 		<div class="fx-box-2 fx-p-a fx-demo">.fx-box-2 - 2/4 = 50%</div>
 		<div class="fx-box-1 fx-p-a fx-demo">.fx-box-1 - 1/4 = 25%</div>
 	</div>
 	
-	<h2>Grid vertical alignment</h2>
+	<h2>Grid vertical alignment. Pure CSS, no JavaScript used.</h2>
 	
 	<div class="fx-grid">
 		<div class="fx-box-1 fx-p-a fx-demo">

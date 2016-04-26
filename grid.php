@@ -10,7 +10,7 @@
 
 	<h2>Grid - responsive</h2>
 
-	<p><a href="http://caniuse.com/#feat=css-mediaqueries" target="_blank">Browsers support</a>: Modern browsers and IE9+</p>
+	<p><a href="//caniuse.com/#feat=css-mediaqueries" target="_blank">Browsers support</a>: Modern browsers and IE9+</p>
 
 	<div class="fx-row">
 		<div class="fx-col-sm-3 fx-col-xs-2 fx-col-xl-5 fx-p-a fx-demo">.fx-col-sm-3 .fx-col-xs-2 .fx-col-xl-5<br> .fx-p-a - adds inner padding</div>

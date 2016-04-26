@@ -4,6 +4,8 @@
 	
 	<h3>Menu light: .fx-menu .fx-menu-light</h3>
 	
+	<p>CSS Dropdown menu with infinite depth nesting. Pure CSS, no JavaScript used.</p>
+	
 	<nav class="fx-menu fx-menu-light">
 		<ul>
 			<li><a href="index.php">Flexify</a></li>

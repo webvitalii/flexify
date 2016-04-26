@@ -1226,23 +1226,40 @@ template {
 	transition: all 0.3s ease;
 }
 
-.fx-wrap .fx-btn-red {
+.fx-wrap .fx-btn-primary {
 	color: #fff;
-	background-color: #c12e2a;
-	background-image: linear-gradient(#d9534f, #c12e2a);
-	border-color: #b92c28;
+	background-color: #265a88;
+	background-image: linear-gradient(#337ab7, #265a88);
+	border-color: #245580;
 }
-.fx-wrap .fx-btn-green {
+
+.fx-wrap .fx-btn-primary:hover,
+.fx-wrap .fx-btn-primary:active {
+	color: #fff;
+}
+
+.fx-wrap .fx-btn-success {
 	color: #fff;
 	background-color: #60b044;
 	background-image: linear-gradient(#8add6d, #60b044);
 	border-color: #5ca941;
 }
-.fx-wrap .fx-btn-blue {
+
+.fx-wrap .fx-btn-success:hover,
+.fx-wrap .fx-btn-success:active {
 	color: #fff;
-	background-color: #265a88;
-	background-image: linear-gradient(#337ab7, #265a88);
-	border-color: #245580;
+}
+
+.fx-wrap .fx-btn-danger {
+	color: #fff;
+	background-color: #c12e2a;
+	background-image: linear-gradient(#d9534f, #c12e2a);
+	border-color: #b92c28;
+}
+
+.fx-wrap .fx-btn-danger:hover,
+.fx-wrap .fx-btn-danger:active {
+	color: #fff;
 }
 
 .fx-wrap button[disabled],

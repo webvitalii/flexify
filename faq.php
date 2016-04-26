@@ -29,7 +29,7 @@
 	</p>
 	
 	
-	<h3>Q: Why do I need to use if if there are Bootstrap/Foundation/?</h3>
+	<h3>Q: Why do I need to use if if there are Bootstrap/Foundation/Etc?</h3>
 	
 	<p>A: Good question. I was using Bootstrap for a long time and was pretty happy about it.
 	But there are some thisng I missed in Bootstrap: support for flexbox, CSS dropdown menu which works on hover and not on click, etc.

@@ -4,7 +4,11 @@
 		<?php include('_sidebar.php'); ?>
 		
 	</div><!-- .fx-grid -->
-
+	
+	<footer class="site-footer fx-text-right fx-p-a" style="background-color: #fff;">
+		<a href="//vitalii.webio.ca/" target="_blank">Develored by Vitalii</a>.
+	</footer>
+	
 </div><!-- .fx-container -->
 
 <script>
@@ -15,7 +19,6 @@
 
   ga('create', 'UA-76870586-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </body>

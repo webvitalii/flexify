@@ -1,6 +1,14 @@
 
 <div class="fx-box-1 fx-p-a" style="background-color: #eee;">
-
+	
+	<div class="fx-text-center fx-m-b">
+		<a href="//codecanyon.net/item/silver-bullet-pro/15171769?ref=webvitalii" target="_blank" title="Silver Bullet Pro - Speed up and Protect WordPress in a Smart Way" class="fx-btn fx-btn-primary">Speed Up and Protect WordPress</a>
+	</div>
+	
+	<div class="fx-text-center fx-m-b">
+		<a href="//codecanyon.net/item/antispam-pro/6491169?ref=webvitalii" target="_blank" title="Anti-Spam Pro - Block Spam in WordPress Comments Section" class="fx-btn fx-btn-primary">Block WordPress Spam</a>
+	</div>
+	
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- flexify.webio.ca - responsive -->
 	<ins class="adsbygoogle"
