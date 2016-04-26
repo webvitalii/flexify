@@ -1262,6 +1262,11 @@ template {
 	color: #fff;
 }
 
+.fx-btn-block {
+	display: block;
+	width: 100%;
+}
+
 .fx-wrap button[disabled],
 .fx-wrap html input[disabled] {
 	cursor: default;

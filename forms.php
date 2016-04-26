@@ -60,6 +60,13 @@
 			<input type="submit" value="submit" />
 			<input class="fx-btn fx-btn-danger" type="submit" value="submit + .fx-btn + .fx-btn-danger" />
 		</p>
+		
+		<p>
+			Block buttons:
+			<button class="fx-btn fx-btn-primary fx-btn-block fx-m-b">button + .fx-btn + .fx-btn-primary + .fx-btn-block</button>
+			<button class="fx-btn fx-btn-success fx-btn-block fx-m-b">button + .fx-btn + .fx-btn-success + .fx-btn-block</button>
+			<button class="fx-btn fx-btn-danger fx-btn-block fx-m-b">button + .fx-btn + .fx-btn-danger + .fx-btn-block</button>
+		</p>
 
 	</form>
 
