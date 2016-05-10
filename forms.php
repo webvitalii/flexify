@@ -63,9 +63,9 @@
 		
 		<p>
 			Block buttons:
-			<button class="fx-btn fx-btn-primary fx-btn-block fx-m-b">button + .fx-btn + .fx-btn-primary + .fx-btn-block</button>
-			<button class="fx-btn fx-btn-success fx-btn-block fx-m-b">button + .fx-btn + .fx-btn-success + .fx-btn-block</button>
-			<button class="fx-btn fx-btn-danger fx-btn-block fx-m-b">button + .fx-btn + .fx-btn-danger + .fx-btn-block</button>
+			<button class="fx-btn fx-btn-primary fx-btn-block fx-margin-bottom">button + .fx-btn + .fx-btn-primary + .fx-btn-block</button>
+			<button class="fx-btn fx-btn-success fx-btn-block fx-margin-bottom">button + .fx-btn + .fx-btn-success + .fx-btn-block</button>
+			<button class="fx-btn fx-btn-danger fx-btn-block fx-margin-bottom">button + .fx-btn + .fx-btn-danger + .fx-btn-block</button>
 		</p>
 
 	</form>
