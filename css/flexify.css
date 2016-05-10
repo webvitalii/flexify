@@ -101,6 +101,7 @@ template {
 .fx-wrap a {
 	color: #0275d8;
 	text-decoration: underline;
+	transition: all 0.2s ease;
 }
 .fx-wrap a:active,
 .fx-wrap a:focus,
