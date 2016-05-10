@@ -5,8 +5,8 @@
 		
 	</div><!-- .fx-grid -->
 	
-	<footer class="site-footer fx-text-right fx-p-a" style="background-color: #fff;">
-		<a href="//vitalii.webio.ca/" target="_blank">Develored by Vitalii</a>.
+	<footer class="site-footer fx-text-right fx-p-a">
+		<a href="//vitalii.webio.ca/" target="_blank">Developed by Vitalii</a>.
 	</footer>
 	
 </div><!-- .fx-container -->
