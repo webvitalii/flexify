@@ -826,7 +826,7 @@ template {
 /* ---------- nav - menu ---------- */
 
 .fx-menu {
-	float: left;
+	display: block;
 	width: 100%;
 	clear: both;
 	background: #e5e5e5;
@@ -838,7 +838,7 @@ template {
 }
 
 .fx-menu li {
-	float: left;
+	display: inline-block;
 	position: relative;
 	list-style-type: none;
 	margin: 0;
@@ -897,7 +897,6 @@ template {
 .fx-menu ul ul {
 	background: #eee;
 	display: none;
-	float: left;
 	margin: 0;
 	position: absolute;
 	top: 100%;
