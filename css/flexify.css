@@ -1433,6 +1433,62 @@ template {
 	clear: both;
 }
 
+/* ---------- helpers - bg color ---------- */
+
+.fx-bg-black {
+	background-color: rgb(0,0,0);
+}
+
+.fx-bg-gray-darkest {
+	background-color: rgb(32,32,32);
+}
+
+.fx-bg-gray-darker {
+	background-color: rgb(64,64,64);
+}
+
+.fx-bg-gray-dark {
+	background-color: rgb(96,96,96);
+}
+
+.fx-bg-gray {
+	background-color: rgb(128,128,128);
+}
+
+.fx-bg-gray-light {
+	background-color: rgb(160,160,160);
+}
+
+.fx-bg-gray-lighter {
+	background-color: rgb(192,192,192);
+}
+
+.fx-bg-gray-lightest {
+	background-color: rgb(224,224,224);
+}
+
+.fx-bg-white {
+	background-color: rgb(255,255,255);
+}
+
+/* ---------- helpers - position ---------- */
+
+.fx-fixed-top {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 500;
+}
+
+.fx-fixed-bottom {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 500;
+}
+
 /* ---------- helpers - text ---------- */
 
 .fx-text-left {

@@ -1,7 +1,12 @@
+
+<div class="fx-fixed-top fx-bg-gray-darkest">
+
+<div class="fx-container fx-container-lg">
+
 <div class="fx-grid">
 	<div class="fx-box-1">
 
-		<nav class="fx-menu fx-menu-dark">
+		<nav class="fx-menu fx-menu-dark-transparent">
 			<ul>
 				<li><a href="index.php">Flexify Home</a></li>
 				
@@ -44,3 +49,9 @@
 	</div><!-- .fx-box-1 -->
 	
 </div><!-- .fx-grid -->
+
+</div><!-- .fx-container fx-container-lg -->
+
+</div><!-- .fx-fixed-top -->
+
+<div style="height: 45px;"></div>

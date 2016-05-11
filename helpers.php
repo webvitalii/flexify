@@ -2,6 +2,27 @@
 
 	<h1>Helper classes</h1>
 	
+	<h2>Background color helper classes</h2>
+	
+	<div class="fx-bg-black fx-padding-all">.fx-bg-black</div>
+	
+	<div class="fx-bg-gray-darkest fx-padding-all">.fx-bg-gray-darkest</div>
+	
+	<div class="fx-bg-gray-darker fx-padding-all">.fx-bg-gray-darker</div>
+	
+	<div class="fx-bg-gray-dark fx-padding-all">.fx-bg-gray-dark</div>
+	
+	<div class="fx-bg-gray fx-padding-all">.fx-bg-gray</div>
+	
+	<div class="fx-bg-gray-light fx-padding-all">.fx-bg-black-light</div>
+	
+	<div class="fx-bg-gray-lighter fx-padding-all">.fx-bg-black-lighter</div>
+	
+	<div class="fx-bg-gray-lightest fx-padding-all">.fx-bg-black-lightest</div>
+	
+	<div class="fx-bg-white fx-padding-all">.fx-bg-white</div>
+	
+	
 	<h2>Text helper classes</h2>
 	
 	<div class="fx-text-left fx-padding-all fx-margin-bottom fx-demo">.fx-text-left - aligning text to left</div>
