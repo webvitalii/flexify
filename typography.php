@@ -20,42 +20,32 @@
 	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 	
-	<h3>Lists</h3>
+	<h3>Ordered Lists</h3>
 	
 	<ol>
-		<li>List item</li>
-		<li>List item</li>
-		<li>List item</li>
-	</ol>
-	
-	<ol>
-		<li>List item</li>
-		<li>List item
+		<li>List item 1</li>
+		<li>List item 2
 			<ol>
 				<li>List item</li>
 				<li>List item</li>
 				<li>List item</li>
 			</ol>
 		</li>
-		<li>List item</li>
+		<li>List item 3</li>
 	</ol>
 	
-	<ul>
-		<li>List item</li>
-		<li>List item</li>
-		<li>List item</li>
-	</ul>
+	<h3>Unordered Lists</h3>
 	
 	<ul>
-		<li>List item</li>
-		<li>List item
+		<li>List item 1</li>
+		<li>List item 2
 			<ul>
 				<li>List item</li>
 				<li>List item</li>
 				<li>List item</li>
 			</ul>
 		</li>
-		<li>List item</li>
+		<li>List item 3</li>
 	</ul>
 	
 
