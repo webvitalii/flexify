@@ -23,6 +23,27 @@
 	<div class="fx-bg-white fx-padding-all">.fx-bg-white</div>
 	
 	
+	<h2>Position helper classes</h2>
+	
+<pre>	
+.fx-fixed-top {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 500;
+}
+
+.fx-fixed-bottom {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 500;
+}
+</pre>
+	
+	
 	<h2>Text helper classes</h2>
 	
 	<div class="fx-text-left fx-padding-all fx-margin-bottom fx-demo">.fx-text-left - aligning text to left</div>
