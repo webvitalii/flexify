@@ -6,7 +6,7 @@
 <div class="fx-grid">
 	<div class="fx-box-1">
 
-		<nav class="fx-menu fx-menu-dark-transparent">
+		<nav class="fx-menu fx-menu-dark">
 			<ul>
 				<li><a href="index.php">Flexify Home</a></li>
 				
