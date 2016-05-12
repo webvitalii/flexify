@@ -28,9 +28,9 @@ if( $title == 'Index' ) {
 
 <body class="fx-wrap">
 
-<div class="fx-container fx-container-lg">
+<?php include('_menu.php'); ?>
 
-	<?php include('_menu.php'); ?>
+<div class="fx-container fx-container-lg">
 
 	<div class="fx-grid">
 		
