@@ -1,5 +1,5 @@
 
-		</div><!-- .fx-box-3 .fx-padding-all -->
+		</div><!-- .fx-box .fx-padding-all -->
 		
 		<?php include('_sidebar.php'); ?>
 		

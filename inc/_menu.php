@@ -4,7 +4,7 @@
 <div class="fx-container fx-container-lg">
 
 <div class="fx-grid">
-	<div class="fx-box-1">
+	<div class="fx-box-12">
 
 		<nav class="fx-menu fx-menu-dark">
 			<ul>
@@ -46,7 +46,7 @@
 			</ul>
 		</nav><!-- .fx-menu -->
 
-	</div><!-- .fx-box-1 -->
+	</div><!-- .fx-box -->
 	
 </div><!-- .fx-grid -->
 

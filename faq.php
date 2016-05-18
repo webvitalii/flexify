@@ -31,11 +31,21 @@
 	
 	<h3>Q: Why do I need to use if if there are Bootstrap/Foundation/Etc?</h3>
 	
-	<p>A: Good question. I was using Bootstrap for a long time and was pretty happy about it.
+	<p>A: I was using Bootstrap for a long time and was pretty happy about it.
 	But there are some thisng I missed in Bootstrap: support for flexbox, CSS dropdown menu which works on hover and not on click, etc.
 	Every classname in Flexify is prefixed with [fx-] prefix for avoiding conflicts with other frameworks/libraries.
 	You may use Flexify with another framework on the same project.
 	</p>
 
+	<h3>Q: Why Flexbox?</h3>
+	
+	<p>A: Flexbox provides simpler and more flexible layout options in CSS. More specifically, it provides:</p>
+	
+	<ul>
+	<li>Easy vertical alignment of content within a parent element.</li>
+	<li>Easy reordering of content across devices and screen resolutions with the help of media queries.</li>
+	<li>Easy CSS-only equal height columns for your grid-based layouts.</li>
+	<li>No need to clear floats.</li>
+	</ul>
 
 <?php include('inc/_footer.php'); ?>

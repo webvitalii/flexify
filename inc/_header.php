@@ -34,4 +34,4 @@ if( $title == 'Index' ) {
 
 	<div class="fx-grid">
 		
-		<div class="fx-box-3 fx-padding-all">
+		<div class="fx-box-9 fx-padding-all">
