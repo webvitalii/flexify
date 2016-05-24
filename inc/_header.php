@@ -13,7 +13,10 @@ if( $title == 'Index' ) {
 	$title .= ' | ';
 }
 ?>
-	<meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title><?php echo $title; ?>Flexify frontend framework</title>
 	
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -34,4 +37,4 @@ if( $title == 'Index' ) {
 
 	<div class="fx-grid">
 		
-		<div class="fx-box-9 fx-padding-all">
+		<div class="fx-box-xs-9 fx-padding-all">

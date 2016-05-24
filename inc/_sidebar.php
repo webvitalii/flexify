@@ -1,8 +1,8 @@
 
-<div class="fx-box-3 fx-padding-all fx-bg-gray-lightest">
+<div class="fx-box-xs-3 fx-padding-all fx-bg-gray-lightest">
 	
 	<div class="fx-text-center fx-margin-bottom">
-		<a href="//codecanyon.net/item/silver-bullet-pro/15171769?ref=webvitalii" target="_blank" title="Silver Bullet Pro - Speed up and Protect WordPress in a Smart Way" class="fx-btn fx-btn-primary">Speed Up and Protect WordPress</a>
+		<a href="//codecanyon.net/item/silver-bullet-pro/15171769?ref=webvitalii" target="_blank" title="Silver Bullet Pro - Speed up and Protect WordPress in a Smart Way" class="fx-btn fx-btn-primary">Speed Up WordPress</a>
 	</div>
 	
 	<div class="fx-text-center fx-margin-bottom">

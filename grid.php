@@ -3,9 +3,9 @@
 	<h1>Grid</h1>
 
 	<div class="fx-row">
-		<div class="fx-col-3 fx-padding-all fx-demo">.fx-col-3 - 3/12 = 25%<br> .fx-padding-all - adds inner padding</div>
-		<div class="fx-col-6 fx-padding-all fx-demo">.fx-col-6 - 6/12 = 50%</div>
-		<div class="fx-col-3 fx-padding-all fx-demo">.fx-col-3 - 3/12 = 25%</div>
+		<div class="fx-col-xs-3 fx-padding-all fx-demo">.fx-col-xs-3 - 3/12 = 25%<br> .fx-padding-all - adds inner padding</div>
+		<div class="fx-col-xs-6 fx-padding-all fx-demo">.fx-col-xs-6 - 6/12 = 50%</div>
+		<div class="fx-col-xs-3 fx-padding-all fx-demo">.fx-col-xs-3 - 3/12 = 25%</div>
 	</div>
 
 	<h2>Grid - responsive</h2>

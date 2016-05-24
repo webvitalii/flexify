@@ -4,7 +4,7 @@
 <div class="fx-container fx-container-lg">
 
 <div class="fx-grid">
-	<div class="fx-box-12">
+	<div class="fx-box-xs-12">
 
 		<nav class="fx-menu fx-menu-dark">
 			<ul>

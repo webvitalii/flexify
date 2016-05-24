@@ -5,7 +5,7 @@
 	<h3 class="fx-text-center">Responsive and flexible css-framework</h3>
 	
 	<div class="fx-grid">
-		<div class="fx-box-3 fx-padding-all fx-text-center">
+		<div class="fx-box-xs-3 fx-padding-all fx-text-center">
 			<!-- <i class="ionicon ion-ios-monitor-outline fx-icon fx-icon-40"></i>-->
 			<i class="ionicon ion-monitor fx-icon fx-icon-40"></i>
 			<!-- <i class="ionicon ion-laptop fx-icon fx-icon-40"></i>-->
@@ -13,13 +13,13 @@
 			<i class="ionicon ion-iphone fx-icon fx-icon-40"></i>
 			<h3>Responsive: works on every device</h3>
 		</div>
-		<div class="fx-box-6 fx-padding-all fx-text-center">
+		<div class="fx-box-xs-6 fx-padding-all fx-text-center">
 			<i class="ionicon ion-social-html5 fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-social-css3 fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-social-chrome fx-icon fx-icon-40"></i>
 			<h3>Uses latest web features and works in every modern browser</h3>
 		</div>
-		<div class="fx-box-3 fx-padding-all fx-text-center">
+		<div class="fx-box-xs-3 fx-padding-all fx-text-center">
 			<i class="ionicon ion-social-github fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-ios-speedometer fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-code fx-icon fx-icon-40"></i>
