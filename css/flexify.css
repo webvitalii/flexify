@@ -1185,6 +1185,8 @@ template {
 .fx-wrap [type="datetime-local"],
 .fx-wrap [type="color"],
 .fx-wrap textarea {
+	display: block;
+	width: 100%;
 	padding: 6px 12px;
 	font-size: 16px;
 	line-height: 16px;
