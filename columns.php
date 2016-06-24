@@ -14,25 +14,50 @@
 		<li>.fx-columns .fx-columns-8 - 8 columns</li>
 	</ul>
 
-	<div class="fx-columns fx-demo">
-		<h1>Header</h1>
-		<p>Column text.</p>
-		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
-		<h1>Header</h1>
-		<p>Column text.</p>
-		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
-		<h1>Header</h1>
-		<p>Column text.</p>
-		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
-		<h1>Header</h1>
-		<p>Column text.</p>
-		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
-		<h1>Header</h1>
-		<p>Column text.</p>
-		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
-		<h1>Header</h1>
-		<p>Column text.</p>
-		<div class="fx-column fx-demo">Avoid any column break within this block.</div>
+	<div class="fx-columns fx-columns-3 fx-demo">
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-demo">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		
 	</div>
 
 <?php include('inc/_footer.php'); ?>
