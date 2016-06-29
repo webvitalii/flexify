@@ -14,11 +14,11 @@
 	
 	<div class="fx-bg-gray fx-padding-all">.fx-bg-gray</div>
 	
-	<div class="fx-bg-gray-light fx-padding-all">.fx-bg-black-light</div>
+	<div class="fx-bg-gray-light fx-padding-all">.fx-bg-gray-light</div>
 	
-	<div class="fx-bg-gray-lighter fx-padding-all">.fx-bg-black-lighter</div>
+	<div class="fx-bg-gray-lighter fx-padding-all">.fx-bg-gray-lighter</div>
 	
-	<div class="fx-bg-gray-lightest fx-padding-all">.fx-bg-black-lightest</div>
+	<div class="fx-bg-gray-lightest fx-padding-all">.fx-bg-gray-lightest</div>
 	
 	<div class="fx-bg-white fx-padding-all">.fx-bg-white</div>
 	
