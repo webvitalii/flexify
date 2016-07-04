@@ -1,0 +1,49 @@
+//Fonts and sizes
+$body-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-basic: 16px;
+$base-line-height: 1.5;
+$h1-size:40px;
+$h2-size:32px;
+$h3-size:28px;
+$h4-size:24px;
+$h5-size:20px;
+$h6-size:16px;
+
+
+// Pre defined colors
+$black: #000;
+$white: #fff;
+
+
+// Defined Colors
+$body-color: #333;
+$bg-color: $white;
+$border-color: #eee;
+$link-color: #0275d8;
+$link-color-active: #014c8c;
+
+// Menu colors
+$menu-bg: #e5e5e5;
+$menu-link-color: $black;
+$menu-link-color-active: $menu-link-color;
+
+
+// Helpers color
+$fx-bg-black: rgb(0,0,0);
+$fx-bg-gray-darkest:  rgb(32,32,32);
+$fx-bg-gray-darker: rgb(64,64,64);
+$fx-bg-gray-dark: rgb(96,96,96);
+$fx-bg-gray: rgb(128,128,128);
+$fx-bg-gray-light: rgb(160,160,160);
+$fx-bg-gray-lighter: rgb(192,192,192);
+$fx-bg-gray-lightest: rgb(224,224,224);
+$fx-bg-white: rgb(255,255,255);
+
+
+// Labels color
+$fx-label-bg: #818a91;
+$fx-bg-primary: #0275d8;
+$fx-bg-success: #5cb85c;
+$fx-bg-info: #5bc0de;
+$fx-bg-warning:#f0ad4e;
+$fx-bg-danger: #d9534f;

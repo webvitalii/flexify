@@ -1,0 +1,209 @@
+/* ========== forms ========== */
+
+.fx-wrap legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: inherit;
+  border: 0;
+}
+
+.fx-wrap fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.fx-wrap label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.fx-wrap input,
+.fx-wrap button,
+.fx-wrap select,
+.fx-wrap optgroup,
+.fx-wrap textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+.fx-wrap optgroup {
+  font-weight: bold;
+}
+
+.fx-wrap textarea {
+  resize: vertical;
+  overflow: auto;
+}
+
+.fx-wrap select {
+  text-transform: none;
+}
+
+.fx-wrap input[type="search"] {
+  -webkit-appearance: none;
+}
+
+/* ========== forms - inputs ========== */
+
+.fx-wrap .fx-form-control,
+.fx-wrap [type="text"],
+.fx-wrap [type="search"],
+.fx-wrap [type="email"],
+.fx-wrap [type="url"],
+.fx-wrap [type="tel"],
+.fx-wrap [type="number"],
+.fx-wrap [type="range"],
+.fx-wrap [type="date"],
+.fx-wrap [type="month"],
+.fx-wrap [type="week"],
+.fx-wrap [type="time"],
+.fx-wrap [type="datetime"],
+.fx-wrap [type="datetime-local"],
+.fx-wrap [type="color"],
+.fx-wrap textarea {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #333;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #555;
+}
+
+.fx-form-control:focus {
+  border-color: #337ab7;
+  outline: none;
+}
+
+.fx-wrap .fx-form-control:disabled,
+.fx-wrap .fx-form-control[readonly],
+.fx-wrap fieldset[disabled] .fx-form-control {
+  background-color: #eceeef;
+  opacity: 1;
+}
+
+.fx-wrap .fx-form-control[disabled],
+.fx-wrap fieldset[disabled] .fx-form-control {
+  cursor: not-allowed;
+}
+
+/* ========== forms - buttons ========== */
+
+.fx-wrap button {
+  overflow: visible;
+  text-transform: none;
+}
+
+.fx-wrap .fx-btn,
+.fx-wrap button,
+.fx-wrap [type="button"],
+.fx-wrap [type="reset"],
+.fx-wrap [type="submit"] {
+  display: inline-block;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #eee;
+  background-image: linear-gradient(#fcfcfc, #eee);
+  border: 1px solid #d5d5d5;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.fx-wrap .fx-btn:hover,
+.fx-wrap .fx-btn:active,
+.fx-wrap button:hover,
+.fx-wrap button:active,
+.fx-wrap [type="submit"]:hover,
+.fx-wrap [type="submit"]:active,
+.fx-wrap [type="button"]:hover,
+.fx-wrap [type="button"]:active,
+.fx-wrap [type="reset"]:hover,
+.fx-wrap [type="reset"]:active {
+  text-decoration: none;
+  /*background-color: #ddd;
+  background-image: linear-gradient(#eee, #ddd);
+  border-color: #ccc;*/
+  -webkit-filter: brightness(85%);
+  filter: brightness(85%);
+  transition: all 0.3s ease;
+}
+
+.fx-wrap .fx-btn-primary {
+  color: #fff;
+  background-color: #265a88;
+  background-image: linear-gradient(#337ab7, #265a88);
+  border-color: #245580;
+}
+
+.fx-wrap .fx-btn-primary:hover,
+.fx-wrap .fx-btn-primary:active {
+  color: #fff;
+}
+
+.fx-wrap .fx-btn-success {
+  color: #fff;
+  background-color: #60b044;
+  background-image: linear-gradient(#8add6d, #60b044);
+  border-color: #5ca941;
+}
+
+.fx-wrap .fx-btn-success:hover,
+.fx-wrap .fx-btn-success:active {
+  color: #fff;
+}
+
+.fx-wrap .fx-btn-danger {
+  color: #fff;
+  background-color: #c12e2a;
+  background-image: linear-gradient(#d9534f, #c12e2a);
+  border-color: #b92c28;
+}
+
+.fx-wrap .fx-btn-danger:hover,
+.fx-wrap .fx-btn-danger:active {
+  color: #fff;
+}
+
+.fx-btn-block {
+  display: block;
+  width: 100%;
+}
+
+.fx-wrap button[disabled],
+.fx-wrap html input[disabled] {
+  cursor: default;
+}
+
+.fx-wrap button::-moz-focus-inner,
+.fx-wrap input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.fx-wrap input[type="checkbox"],
+.fx-wrap input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.fx-wrap input[type="number"]::-webkit-inner-spin-button,
+.fx-wrap input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}

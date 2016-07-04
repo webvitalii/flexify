@@ -1,0 +1,273 @@
+/* ========== helpers ========== */
+
+.fx-clearfix {}
+.fx-clearfix:before,
+.fx-clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.fx-clearfix:after {
+  clear: both;
+}
+
+/* ---------- helpers - bg color ---------- */
+
+.fx-bg-black {
+  background-color: $fx-bg-black;
+}
+
+.fx-bg-gray-darkest {
+  background-color: $fx-bg-gray-darkest;
+}
+
+.fx-bg-gray-darker {
+  background-color: $fx-bg-gray-darker;
+}
+
+.fx-bg-gray-dark {
+  background-color: $fx-bg-gray-dark;
+}
+
+.fx-bg-gray {
+  background-color: $fx-bg-gray;
+}
+
+.fx-bg-gray-light {
+  background-color: $fx-bg-gray-light;
+}
+
+.fx-bg-gray-lighter {
+  background-color: $fx-bg-gray-lighter;
+}
+
+.fx-bg-gray-lightest {
+  background-color: $fx-bg-gray-lightest;
+}
+
+.fx-bg-white {
+  background-color: $fx-bg-white;
+}
+
+
+/* ---------- helpers - position ---------- */
+
+.fx-fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+}
+
+.fx-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+}
+
+/* ---------- helpers - text ---------- */
+
+.fx-text-left {
+  text-align: left;
+}
+
+.fx-text-right {
+  text-align: right;
+}
+
+.fx-text-center {
+  text-align: center;
+}
+
+.fx-text-justify {
+  text-align: justify;
+}
+
+.fx-text-nowrap {
+  white-space: nowrap;
+}
+
+.fx-text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fx-text-lowercase {
+  text-transform: lowercase;
+}
+
+.fx-text-uppercase {
+  text-transform: uppercase;
+}
+
+.fx-text-capitalize {
+  text-transform: capitalize;
+}
+
+.fx-text-hide {
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.fx-text-mute {
+  color: #777;
+}
+
+/* ---------- helpers - position ---------- */
+
+.fx-center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fx-pull-right {
+  float: right !important;
+}
+
+.fx-pull-left {
+  float: left !important;
+}
+
+.fx-affix {
+  position: fixed;
+}
+
+/* ---------- helpers - visibility ---------- */
+
+.fx-hide {
+  display: none !important;
+}
+
+.fx-show {
+  display: block !important;
+}
+
+.fx-invisible {
+  visibility: hidden;
+}
+
+/* ---------- helpers - margin ---------- */
+
+.fx-margin-all-none {
+  margin: 0 !important;
+}
+
+.fx-margin-top-none {
+  margin-top: 0 !important;
+}
+
+.fx-margin-right-none {
+  margin-right: 0 !important;
+}
+
+.fx-margin-bottom-none {
+  margin-bottom: 0 !important;
+}
+
+.fx-margin-left-none {
+  margin-left: 0 !important;
+}
+
+.fx-margin-all {
+  margin: 15px !important;
+}
+
+.fx-margin-top {
+  margin-top: 15px !important;
+}
+
+.fx-margin-right {
+  margin-right: 15px !important;
+}
+
+.fx-margin-bottom {
+  margin-bottom: 15px !important;
+}
+
+.fx-margin-left {
+  margin-left: 15px !important;
+}
+
+/* ---------- helpers - padding ---------- */
+
+.fx-padding-all-none {
+  padding: 0 !important;
+}
+
+.fx-padding-top-none {
+  padding-top: 0 !important;
+}
+
+.fx-padding-right-none {
+  padding-right: 0 !important;
+}
+
+.fx-padding-bottom-none {
+  padding-bottom: 0 !important;
+}
+
+.fx-padding-left-none {
+  padding-left: 0 !important;
+}
+
+.fx-padding-all {
+  padding: 15px !important;
+}
+
+.fx-padding-top {
+  padding-top: 15px !important;
+}
+
+.fx-padding-right {
+  padding-right: 15px !important;
+}
+
+.fx-padding-bottom {
+  padding-bottom: 15px !important;
+}
+
+.fx-padding-left {
+  padding-left: 15px !important;
+}
+
+/* ---------- helpers - icons ---------- */
+
+.fx-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  transition: color .1s ease-in 0;
+  font-smoothing: antialiased;
+}
+
+.fx-icon-20 {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.fx-icon-30 {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.fx-icon-40 {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+}
