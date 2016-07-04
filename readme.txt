@@ -3,6 +3,13 @@
 Responsive and flexible frontend framework.
 http://flexify.webio.ca/
 
+To compile scss to css, change to the root folder of the project and issue the command below in CLI:
+```ruby
+compass compile scss/flexify.scss --output-style compressed
+
+
+```
+
 == to-do: ==
 
 * [menu] menu black, menu fixed
