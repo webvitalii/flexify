@@ -1,0 +1,184 @@
+/* ========== nav ========== */
+
+/* ---------- nav - menu ---------- */
+
+.fx-menu {
+  display: block;
+  width: 100%;
+  clear: both;
+  background: $menu-bg;
+}
+
+.fx-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.fx-menu li {
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fx-menu a {
+  color: $menu-link-color;
+  padding: 12px 12px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.fx-menu li a:hover {
+  color:$menu-link-color-active;
+}
+
+.fx-menu li a:hover,
+.fx-menu li a:focus,
+.fx-menu li.current_page_item > a,
+.fx-menu li.current-page-item > a,
+.fx-menu li.current_menu_item > a,
+.fx-menu li.current-menu-item > a,
+.fx-menu li.current_page_ancestor > a,
+.fx-menu li.current-page-ancestor > a,
+.fx-menu li.current_menu_ancestor > a,
+.fx-menu li.current-menu-ancestor > a {
+  text-decoration: none;
+}
+
+.fx-menu ul li.page_item_has_children a,
+.fx-menu ul li.menu-item-has-children a {
+  position: relative;
+}
+
+.fx-menu ul li.page_item_has_children > a:after,
+.fx-menu ul li.menu-item-has-children > a:after {
+  content: "";
+  position: absolute;
+  display: block;
+  right: 2px;
+  top: 50%;
+  margin-top: -2px;
+  opacity: 0.5;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent; /* magic arrow-triangle */
+  border-right: 4px solid transparent;
+  border-top: 4px solid #555;
+}
+
+/* ---------- nav - menu - level 2 ---------- */
+
+.fx-menu ul ul {
+  background: #eee;
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  width: 250px;
+  z-index: 50;
+}
+
+.fx-menu ul ul li {
+  width: 100%;
+  border-right: 0;
+}
+
+.fx-menu ul li.page_item_has_children li.page_item_has_children > a:after,
+.fx-menu ul li.menu-item-has-children li.menu-item-has-children > a:after {
+  content: "";
+  position: absolute;
+  display: block;
+  right: 2px;
+  top: 50%;
+  margin-top: -2px;
+  opacity: 0.5;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent; /* magic arrow-triangle */
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #555;
+}
+
+.fx-menu ul li:hover > ul {
+  display: block;
+}
+
+/* ---------- nav - menu - level 3+ ---------- */
+
+.fx-menu ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+/* ---------- nav - menu - light ---------- */
+
+.fx-menu-light {
+  background-color: transparent;
+  color: #333;
+}
+
+.fx-menu-light a {
+  color: #333;
+}
+
+.fx-menu-light li a:hover,
+.fx-menu-light li a:focus,
+.fx-menu-light li.current_page_item > a,
+.fx-menu-light li.current-page-item > a,
+.fx-menu-light li.current_menu_item > a,
+.fx-menu-light li.current-menu-item > a,
+.fx-menu-light li.current_page_ancestor > a,
+.fx-menu-light li.current-page-ancestor > a,
+.fx-menu-light li.current_menu_ancestor > a,
+.fx-menu-light li.current-menu-ancestor > a {
+  color: #111;
+  background-color: #ddd;
+}
+
+.fx-menu-light ul ul {
+  background: #eee;
+  color: #333;
+}
+
+.fx-menu-light ul li.page_item_has_children > a:after,
+.fx-menu-light ul li.menu-item-has-children > a:after {
+  border-top: 4px solid #333;
+}
+
+/* ---------- nav - menu - dark ---------- */
+
+.fx-menu-dark {
+  background-color: transparent;
+  color: #eee;
+}
+
+.fx-menu-dark a {
+  color: #eee;
+}
+
+.fx-menu-dark li a:hover,
+.fx-menu-dark li a:focus,
+.fx-menu-dark li.current_page_item > a,
+.fx-menu-dark li.current-page-item > a,
+.fx-menu-dark li.current_menu_item > a,
+.fx-menu-dark li.current-menu-item > a,
+.fx-menu-dark li.current_page_ancestor > a,
+.fx-menu-dark li.current-page-ancestor > a,
+.fx-menu-dark li.current_menu_ancestor > a,
+.fx-menu-dark li.current-menu-ancestor > a {
+  color: #fff;
+  background-color: #111;
+}
+
+.fx-menu-dark ul ul {
+  background: #333;
+  color: #eee;
+}
+
+.fx-menu-dark ul li.page_item_has_children > a:after,
+.fx-menu-dark ul li.menu-item-has-children > a:after {
+  border-top: 4px solid #eee;
+}

@@ -1,0 +1,51 @@
+.fx-wrap *,
+.fx-wrap *:before,
+.fx-wrap *:after {
+  box-sizing: border-box;
+}
+
+.fx-wrap {
+  font-family: $body-font;
+  font-size: $font-size-basic;
+  line-height: $base-line-height;
+  color: $body-color;
+  background-color: $bg-color;
+}
+
+.fx-wrap hr {
+  height: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 1px solid $border-color;
+  box-sizing: content-box;
+}
+
+.fx-wrap output {
+  display: inline-block;
+}
+
+.fx-wrap figure {
+  margin: 0 0 15px 0;
+}
+
+/* ---------- general - images ---------- */
+
+.fx-wrap img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/* ---------- general - links ---------- */
+
+.fx-wrap a {
+  color: $link-color;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+.fx-wrap a:active,
+.fx-wrap a:focus,
+.fx-wrap a:hover {
+  color: $link-color-active;
+  text-decoration: underline;
+}

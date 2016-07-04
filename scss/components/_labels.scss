@@ -1,0 +1,39 @@
+/* ========== labels ========== */
+
+.fx-label {
+  background-color: $fx-label-bg;
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 3px;
+}
+
+.fx-label:empty {
+  display: none;
+}
+
+.fx-label-primary {
+  background-color: $fx-bg-primary;
+}
+
+.fx-label-success {
+  background-color: $fx-bg-success;
+}
+
+.fx-label-info {
+  background-color: $fx-bg-info;
+}
+
+.fx-label-warning {
+  background-color: $fx-bg-warning;
+}
+
+.fx-label-danger {
+  background-color: $fx-bg-danger;
+}

@@ -1,0 +1,46 @@
+/* ========== columns ========== */
+
+.fx-columns {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.fx-columns-1 {
+  column-count: 1;
+}
+
+.fx-columns-2 {
+  column-count: 2;
+}
+
+.fx-columns-3 {
+  column-count: 3;
+}
+
+.fx-columns-4 {
+  column-count: 4;
+}
+
+.fx-columns-5 {
+  column-count: 5;
+}
+
+.fx-columns-6 {
+  column-count: 6;
+}
+
+.fx-columns-7 {
+  column-count: 7;
+}
+
+.fx-columns-8 {
+  column-count: 8;
+}
+
+.fx-columns .fx-column {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  /* to fix the issue when bottom margin can go to the next column */
+  display: inline-block;
+  width: 100%;
+}

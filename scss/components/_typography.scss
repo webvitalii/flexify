@@ -1,0 +1,233 @@
+/* ========== typography ========== */
+
+/* ---------- typography - general ---------- */
+
+.fx-wrap b,
+.fx-wrap strong {
+  font-weight: bold;
+}
+
+.fx-wrap p {
+  margin: 15px 0 15px 0;
+}
+
+/* ---------- typography - headers ---------- */
+
+.fx-wrap h1,
+.fx-wrap h2,
+.fx-wrap h3,
+.fx-wrap h4,
+.fx-wrap h5,
+.fx-wrap h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.fx-wrap h1 {
+  font-size: $h1-size;
+}
+
+.fx-wrap h2 {
+  font-size: $h2-size;
+}
+
+.fx-wrap h3 {
+  font-size: $h3-size;
+}
+
+.fx-wrap h4 {
+  font-size: $h4-size;
+}
+
+.fx-wrap h5 {
+  font-size: $h5-size;
+}
+
+.fx-wrap h6 {
+  font-size: $h6-size;
+}
+
+/* ---------- typography - lists ---------- */
+
+.fx-wrap ul,
+.fx-wrap ol {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.fx-wrap ul ul,
+.fx-wrap ol ul,
+.fx-wrap ul ol,
+.fx-wrap ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.fx-wrap .fx-list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.fx-wrap .fx-list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.fx-wrap .fx-list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.fx-wrap dl {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.fx-wrap dt,
+.fx-wrap dd {
+  line-height: 1.5;
+}
+
+.fx-wrap dt {
+  font-weight: bold;
+}
+
+.fx-wrap dd {
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+/* ---------- typography - blockquote ---------- */
+
+.fx-wrap blockquote {
+  padding: 8px 15px;
+  margin: 15px 0 15px 0;
+  font-size: 16px;
+  border-left: 4px solid #eee;
+  background-color: #fafafa;
+}
+
+.fx-wrap blockquote p:first-child,
+.fx-wrap blockquote ul:first-child,
+.fx-wrap blockquote ol:first-child {
+  margin-top: 0;
+}
+
+.fx-wrap blockquote p:last-child,
+.fx-wrap blockquote ul:last-child,
+.fx-wrap blockquote ol:last-child {
+  margin-bottom: 0;
+}
+
+.fx-wrap blockquote footer,
+.fx-wrap blockquote small,
+.fx-wrap blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.5;
+  color: #777;
+}
+
+.fx-wrap blockquote footer:before,
+.fx-wrap blockquote small:before,
+.fx-wrap blockquote .small:before {
+  content: '\2014 \00A0';
+}
+
+/* ---------- typography - misc ---------- */
+
+.fx-wrap dfn {
+  font-style: italic;
+}
+
+.fx-wrap mark {
+  color: #000;
+  background: #ff0;
+  padding: 4px;
+}
+
+.fx-wrap small {
+  font-size: 80%;
+  font-weight: normal;
+}
+
+.fx-wrap sub,
+.fx-wrap sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.fx-wrap sup {
+  top: -8px;
+}
+
+.fx-wrap sub {
+  bottom: -4px;
+}
+
+.fx-wrap abbr[title],
+.fx-wrap abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #777;
+}
+
+.fx-wrap address {
+  margin-bottom: 15px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.fx-wrap code,
+.fx-wrap kbd,
+.fx-wrap pre,
+.fx-wrap samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 16px;
+}
+
+.fx-wrap code {
+  padding: 3px 8px;
+  font-size: 90%;
+  color: #bbb;
+  background-color: #f7f7f7;
+}
+
+.fx-wrap kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #fff;
+  background-color: #333;
+}
+
+.fx-wrap kbd kbd {
+  padding: 2px 4px;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.fx-wrap pre {
+  overflow: auto;
+  display: block;
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.fx-wrap pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.fx-pre-scrollable {
+  max-height: 400px;
+  overflow-y: scroll;
+}

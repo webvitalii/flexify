@@ -1,0 +1,43 @@
+/* ========== tables ========== */
+
+.fx-wrap table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: transparent;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
+  border-top: 2px solid #eceeef;
+}
+
+.fx-wrap table caption {
+  display: table-caption;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.fx-wrap table th,
+.fx-wrap table td {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+.fx-wrap table th,
+.fx-wrap table td {
+  font-weight: normal;
+  padding: 4px;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+
+.fx-wrap table th {
+  font-weight: bold;
+}
+
+.fx-wrap table thead th {
+  vertical-align: bottom;
+}
