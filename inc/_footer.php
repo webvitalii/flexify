@@ -1,9 +1,9 @@
 
-		</div><!-- .fx-box .fx-padding-all -->
+		</div><!-- .fx-col .fx-padding-all -->
 		
 		<?php include('_sidebar.php'); ?>
 		
-	</div><!-- .fx-grid -->
+	</div><!-- .fx-row -->
 	
 	<footer class="site-footer fx-text-right fx-padding-all">
 		<a href="//vitalii.webio.ca/" target="_blank">Developed by Vitalii</a>

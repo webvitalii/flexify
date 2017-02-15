@@ -35,6 +35,6 @@ if( $title == 'Index' ) {
 
 <div class="fx-container fx-container-lg">
 
-	<div class="fx-grid">
+	<div class="fx-row">
 		
-		<div class="fx-box-sm-9 fx-padding-all">
+		<div class="fx-col-sm-9 fx-padding-all">

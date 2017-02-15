@@ -3,8 +3,8 @@
 
 <div class="fx-container fx-container-lg">
 
-<div class="fx-grid">
-	<div class="fx-box-xs-12">
+<div class="fx-row">
+	<div class="fx-col-12">
 
 		<nav class="fx-menu fx-menu-dark">
 			<ul>
@@ -12,12 +12,7 @@
 				
 				<li><a href="//github.com/webvitalii/flexify/archive/master.zip">Download Flexify</a></li>
 				
-				<li class="page_item_has_children"><a href="grid.php">Layout</a>
-					<ul>
-						<li><a href="grid.php">Grid</a></li>
-						<li><a href="grid-flexible.php">Flexible Grid</a></li>
-					</ul>
-				</li>
+				<li><a href="grid.php">Grid</a></li>
 				
 				<li class="page_item_has_children"><a href="typography.php">Content</a>
 					<ul>
@@ -47,9 +42,9 @@
 			</ul>
 		</nav><!-- .fx-menu -->
 
-	</div><!-- .fx-box -->
+	</div><!-- .fx-col -->
 	
-</div><!-- .fx-grid -->
+</div><!-- .fx-row -->
 
 </div><!-- .fx-container fx-container-lg -->
 

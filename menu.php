@@ -12,7 +12,7 @@
 			<li class="page_item_has_children"><a href="grid.php">Docs</a>
 				<ul>
 					<li><a href="grid.php">Grid</a></li>
-					<li><a href="grid-flexible.php">Flexible Grid</a></li>
+					<li><a href="grid.php">Grid</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -26,7 +26,7 @@
 			<li class="page_item_has_children"><a href="grid.php">Docs</a>
 				<ul>
 					<li><a href="grid.php">Grid</a></li>
-					<li><a href="grid-flexible.php">Flexible Grid</a></li>
+					<li><a href="grid.php">Grid</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -40,7 +40,7 @@
 			<li class="page_item_has_children"><a href="grid.php">Docs</a>
 				<ul>
 					<li><a href="grid.php">Grid</a></li>
-					<li><a href="grid-flexible.php">Flexible Grid</a></li>
+					<li><a href="grid.php">Grid</a></li>
 				</ul>
 			</li>
 		</ul>

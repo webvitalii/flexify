@@ -1,5 +1,5 @@
 
-<div class="fx-box-sm-3 fx-padding-all fx-bg-gray-lightest">
+<div class="fx-col-sm-3 fx-padding-all fx-bg-gray-lightest">
 	
 	<div class="fx-text-center fx-margin-bottom">
 		<a href="https://codecanyon.net/item/silver-bullet-pro/15171769?ref=webvitalii" target="_blank" title="Speedup WordPress">
@@ -26,4 +26,4 @@
 	(adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 	
-</div><!-- .fx-box -->
+</div><!-- .fx-col -->

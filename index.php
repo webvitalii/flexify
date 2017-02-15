@@ -4,8 +4,8 @@
 
 	<h3 class="fx-text-center">Responsive and flexible css-framework</h3>
 	
-	<div class="fx-grid">
-		<div class="fx-box-xs-3 fx-padding-all fx-text-center">
+	<div class="fx-row">
+		<div class="fx-col-3 fx-padding-all fx-text-center">
 			<!-- <i class="ionicon ion-ios-monitor-outline fx-icon fx-icon-40"></i>-->
 			<i class="ionicon ion-monitor fx-icon fx-icon-40"></i>
 			<!-- <i class="ionicon ion-laptop fx-icon fx-icon-40"></i>-->
@@ -13,27 +13,26 @@
 			<i class="ionicon ion-iphone fx-icon fx-icon-40"></i>
 			<h3>Responsive: works on every device</h3>
 		</div>
-		<div class="fx-box-xs-6 fx-padding-all fx-text-center">
+		<div class="fx-col-6 fx-padding-all fx-text-center">
 			<i class="ionicon ion-social-html5 fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-social-css3 fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-social-chrome fx-icon fx-icon-40"></i>
 			<h3>Uses latest web features and works in every modern browser</h3>
 		</div>
-		<div class="fx-box-xs-3 fx-padding-all fx-text-center">
+		<div class="fx-col-3 fx-padding-all fx-text-center">
 			<i class="ionicon ion-social-github fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-ios-speedometer fx-icon fx-icon-40"></i>
 			<i class="ionicon ion-code fx-icon fx-icon-40"></i>
 			<h3>Open-source, light and hack-free</h3>
 		</div>
-	</div><!-- .fx-grid -->
+	</div><!-- .fx-row -->
 	
 	
 	<h2>Flexify features:</h2>
 
 	<ul>
 		<li>normalized initial styles for all elements</li>
-		<li><a href="grid-flexible.php">Flexible Grid (powered by flexbox)</a></li>
-		<li><a href="grid.php">Bootstrap-like grid (12 columns, responsive, 5 breakpoints)</a></li>
+		<li><a href="grid.php">Bootstrap-like grid (12 columns, responsive, 5 breakpoints, powered by flexbox)</a></li>
 		<li><a href="menu.php">responsive dropdown CSS menu</a></li>
 		<li><a href="columns.php">columns helper classes</a></li>
 		<li><a href="helpers.php">text, padding and margin helper classes</a></li>
