@@ -4,11 +4,21 @@
 	
 	<h2>Background color helper classes</h2>
 	
-	<div class="fx-bg-black fx-padding-all">.fx-bg-black</div>
+	<div class="fx-bg-primary fx-padding-all">.fx-bg-primary</div>
 	
-	<div class="fx-bg-gray-darkest fx-padding-all">.fx-bg-gray-darkest</div>
+	<div class="fx-bg-success fx-padding-all">.fx-bg-success</div>
 	
-	<div class="fx-bg-gray-darker fx-padding-all">.fx-bg-gray-darker</div>
+	<div class="fx-bg-info fx-padding-all">.fx-bg-info</div>
+	
+	<div class="fx-bg-warning fx-padding-all">.fx-bg-warning</div>
+	
+	<div class="fx-bg-danger fx-padding-all">.fx-bg-danger</div>
+	
+	<div class="fx-bg-black fx-text-white fx-padding-all">.fx-bg-black</div>
+	
+	<div class="fx-bg-gray-darkest fx-text-white fx-padding-all">.fx-bg-gray-darkest</div>
+	
+	<div class="fx-bg-gray-darker fx-text-white fx-padding-all">.fx-bg-gray-darker</div>
 	
 	<div class="fx-bg-gray-dark fx-padding-all">.fx-bg-gray-dark</div>
 	
@@ -21,6 +31,37 @@
 	<div class="fx-bg-gray-lightest fx-padding-all">.fx-bg-gray-lightest</div>
 	
 	<div class="fx-bg-white fx-padding-all">.fx-bg-white</div>
+	
+	
+	<h2>Color helper classes</h2>
+	
+	<div class="fx-text-primary fx-padding-all">.fx-text-primary</div>
+	
+	<div class="fx-text-success fx-padding-all">.fx-text-success</div>
+	
+	<div class="fx-text-info fx-padding-all">.fx-text-info</div>
+	
+	<div class="fx-text-warning fx-padding-all">.fx-text-warning</div>
+	
+	<div class="fx-text-danger fx-padding-all">.fx-text-danger</div>
+	
+	<div class="fx-text-black fx-padding-all">.fx-text-black</div>
+	
+	<div class="fx-text-gray-darkest fx-padding-all">.fx-text-gray-darkest</div>
+	
+	<div class="fx-text-gray-darker fx-padding-all">.fx-text-gray-darker</div>
+	
+	<div class="fx-text-gray-dark fx-padding-all">.fx-text-gray-dark</div>
+	
+	<div class="fx-text-gray fx-padding-all">.fx-text-gray</div>
+	
+	<div class="fx-text-gray-light fx-padding-all">.fx-text-gray-light</div>
+	
+	<div class="fx-text-gray-lighter fx-padding-all">.fx-text-gray-lighter</div>
+	
+	<div class="fx-text-gray-lightest fx-padding-all">.fx-text-gray-lightest</div>
+	
+	<div class="fx-text-white fx-bg-gray-lightest fx-padding-all">.fx-text-white</div>
 	
 	
 	<h2>Position helper classes</h2>
