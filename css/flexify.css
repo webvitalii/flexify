@@ -1,5 +1,5 @@
 /*
- * flexify frontend framework v0.2
+ * flexify frontend framework v0.3
  * http://flexify.webio.ca/
  * Licensed under GPLv3 http://www.gnu.org/licenses/gpl.html
  */
@@ -9,6 +9,7 @@
 /* github.com/necolas/normalize.css */
 html {
 	font-family: sans-serif;
+	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -134,8 +135,13 @@ template {
 	font-weight: bold;
 }
 
+.fx-wrap i,
+.fx-wrap em {
+	font-style: italic;
+}
+
 .fx-wrap p {
-    margin: 15px 0 15px 0;
+	margin: 15px 0 15px 0;
 }
 
 /* ---------- typography - headers ---------- */
@@ -251,8 +257,7 @@ template {
 }
 
 .fx-wrap blockquote footer,
-.fx-wrap blockquote small,
-.fx-wrap blockquote .small {
+.fx-wrap blockquote small {
 	display: block;
 	font-size: 80%;
 	line-height: 1.5;
@@ -260,48 +265,47 @@ template {
 }
 
 .fx-wrap blockquote footer:before,
-.fx-wrap blockquote small:before,
-.fx-wrap blockquote .small:before {
+.fx-wrap blockquote small:before {
 	content: '\2014 \00A0';
 }
 
 /* ---------- typography - misc ---------- */
 
 .fx-wrap dfn {
-    font-style: italic;
+	font-style: italic;
 }
 
 .fx-wrap mark {
-    color: #000;
-    background: #ff0;
-    padding: 4px;
+	color: #000;
+	background: #ff0;
+	padding: 4px;
 }
 
 .fx-wrap small {
-    font-size: 80%;
-    font-weight: normal;
+	font-size: 80%;
+	font-weight: normal;
 }
 
 .fx-wrap sub,
 .fx-wrap sup {
-    position: relative;
-    font-size: 75%;
-    line-height: 0;
-    vertical-align: baseline;
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
 }
 
 .fx-wrap sup {
-    top: -8px;
+	top: -8px;
 }
 
 .fx-wrap sub {
-    bottom: -4px;
+	bottom: -4px;
 }
 
 .fx-wrap abbr[title],
 .fx-wrap abbr[data-original-title] {
-    cursor: help;
-    border-bottom: 1px dotted #777;
+	cursor: help;
+	border-bottom: 1px dotted #777;
 }
 
 .fx-wrap address {
