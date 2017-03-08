@@ -92,7 +92,7 @@
 </pre>
 	
 	<div style="">
-		<h3 class="fx-sticky-top fx-bg-gray-lighter fx-padding-all">Sticky header</h3>
+		<h3 class="fx-sticky-top fx-bg-gray-lighter fx-padding-all">Sticky header (only CSS, no JS)</h3>
 		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
 		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
 		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
