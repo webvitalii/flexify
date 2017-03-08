@@ -72,7 +72,7 @@
 	top: 0;
 	right: 0;
 	left: 0;
-	z-index: 500;
+	z-index: 1000;
 }
 
 .fx-fixed-bottom {
@@ -80,10 +80,26 @@
 	bottom: 0;
 	right: 0;
 	left: 0;
-	z-index: 500;
+	z-index: 1000;
+}
+
+.fx-sticky-top {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
 }
 </pre>
 	
+	<div style="">
+		<h3 class="fx-sticky-top fx-bg-gray-lighter fx-padding-all">Sticky header</h3>
+		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
+		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
+		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
+		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
+		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
+		<p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p><p>Text.</p>
+	</div>
 	
 	<h2>Text helper classes</h2>
 	
