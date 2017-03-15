@@ -36,13 +36,13 @@
 		<li><a href="menu.php">responsive dropdown CSS menu</a></li>
 		<li><a href="columns.php">columns helper classes</a></li>
 		<li><a href="helpers.php">text, padding and margin helper classes</a></li>
-		<li>All class-names have fx- prefix and it is safe to use Flexify framework with other frameworks on the same page.</li>
+		<li>All class-names have 'fx-' prefix and it is safe to use Flexify framework with other frameworks on the same page.</li>
 	</ul>
 	
 	
 	<h3>Breakpoints:</h3>
 
-	<p>-xs- [544px] -sm- [768px] -md- [992px] -lg- [1200px] -xl-</p>
+	<p>-xs- [576px] -sm- [768px] -md- [992px] -lg- [1200px] -xl-</p>
 	
 	
 	<h3>Usage:</h3>

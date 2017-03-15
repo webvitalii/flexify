@@ -372,7 +372,7 @@ template {
 	margin-left: auto;
 }
 .fx-container-xs {
-	max-width: 544px;
+	max-width: 576px;
 }
 .fx-container-sm {
 	max-width: 768px;
@@ -1564,13 +1564,13 @@ template {
 	display: none !important;
 }
 
-@media (max-width: 543px) {
+@media (max-width: 575px) {
 	.fx-hidden-xs-down {
 		display: none !important;
 	}
 }
 
-@media (min-width: 544px) {
+@media (min-width: 576px) {
 	.fx-hidden-sm-up {
 		display: none !important;
 	}
@@ -2122,7 +2122,7 @@ template {
 	width: 100%; */
 }
 
-@media (max-width: 543px) {
+@media (max-width: 575px) {
 	.fx-columns-1,
 	.fx-columns-2,
 	.fx-columns-3,

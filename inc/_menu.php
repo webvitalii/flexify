@@ -10,8 +10,6 @@
 			<ul>
 				<li><a href="index.php">Flexify Home</a></li>
 				
-				<li><a href="//github.com/webvitalii/flexify/archive/master.zip">Download Flexify</a></li>
-				
 				<li><a href="grid.php">Grid</a></li>
 				
 				<li class="page_item_has_children"><a href="typography.php">Content</a>
@@ -31,14 +29,9 @@
 					</ul>
 				</li>
 				
-				<li class="page_item_has_children"><a href="//flexify.webio.ca/" target="_blank">Links</a>
-					<ul>
-						<li><a href="//flexify.webio.ca/" target="_blank">Flexify Website</a></li>
-						<li><a href="//github.com/webvitalii/flexify" target="_blank">Flexify on GitHub</a></li>
-					</ul>
-				</li>
-				
 				<li><a href="faq.php">FAQ</a></li>
+				
+				<li><a href="//github.com/webvitalii/flexify/">GitHub</a></li>
 			</ul>
 		</nav><!-- .fx-menu -->
 
