@@ -6,7 +6,7 @@
 	</div><!-- .fx-row -->
 	
 	<footer class="site-footer fx-text-right fx-padding-all">
-		<a href="//vitalii.webio.ca/" target="_blank">Developed by Vitalii</a>
+		<a href="//universio.net/" target="_blank">Developed by Universio.net</a>
 	</footer>
 	
 </div><!-- .fx-container -->
