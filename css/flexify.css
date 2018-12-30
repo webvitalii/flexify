@@ -526,11 +526,13 @@ template {
     flex-grow: 1;
     max-width: 100%;
   }
+
   .fx-col--sm-auto {
     flex: 0 0 auto;
     width: auto;
     max-width: none;
   }
+
   .fx-col--sm-1 {
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
@@ -587,11 +589,13 @@ template {
     flex-grow: 1;
     max-width: 100%;
   }
+
   .fx-col--md-auto {
     flex: 0 0 auto;
     width: auto;
     max-width: none;
   }
+
   .fx-col--md-1 {
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
@@ -643,6 +647,7 @@ template {
 }
 
 @media (min-width: 992px) {
+
   .fx-col--lg {
     flex-basis: 0;
     flex-grow: 1;
