@@ -21,8 +21,6 @@ if( $title == 'Index' ) {
 	
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 	
-	<link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
-	
 	<link href="css/flexify.css" rel="stylesheet" />
 
 	<link href="css/demo.css" rel="stylesheet" />
