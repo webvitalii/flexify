@@ -413,8 +413,32 @@ template {
 	overflow-y: scroll;
 }
 
+/* ========== grid ========== */
 
-/* ========== grid/BEM ========== */
+/* ---------- grid - container ---------- */
+
+.fx-container {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+.fx-container--xs {
+	max-width: 576px;
+}
+.fx-container--sm {
+	max-width: 768px;
+}
+.fx-container--md {
+	max-width: 992px;
+}
+.fx-container--lg {
+	max-width: 1200px;
+}
+.fx-container--xl {
+	max-width: 1400px;
+}
+
+/* ---------- grid - row/col ---------- */
 
 .fx-row {
   display: flex;
@@ -428,8 +452,7 @@ template {
   margin-left: 0;
 }
 
-.fx-row--no-gutters > .fx-col,
-.fx-row--no-gutters > [class*="fx-col-"] {
+.fx-row--no-gutters > .fx-col {
   padding-right: 0;
   padding-left: 0;
 }
@@ -445,16 +468,7 @@ template {
   padding-left: 15px;
 }
 
-.fx-col-1, .fx-col-2, .fx-col-3, .fx-col-4, .fx-col-5, .fx-col-6, .fx-col-7, .fx-col-8, .fx-col-9, .fx-col-10, .fx-col-11, .fx-col-12, .fx-col,
-.fx-col-auto, .fx-col--sm-1, .fx-col--sm-2, .fx-col--sm-3, .fx-col--sm-4, .fx-col--sm-5, .fx-col--sm-6, .fx-col--sm-7, .fx-col--sm-8, .fx-col--sm-9, .fx-col--sm-10, .fx-col--sm-11, .fx-col--sm-12, .fx-col--sm,
-.fx-col--sm-auto, .fx-col--md-1, .fx-col--md-2, .fx-col--md-3, .fx-col--md-4, .fx-col--md-5, .fx-col--md-6, .fx-col--md-7, .fx-col--md-8, .fx-col--md-9, .fx-col--md-10, .fx-col--md-11, .fx-col--md-12, .fx-col--md,
-.fx-col--md-auto, .fx-col--lg-1, .fx-col--lg-2, .fx-col--lg-3, .fx-col--lg-4, .fx-col--lg-5, .fx-col--lg-6, .fx-col--lg-7, .fx-col--lg-8, .fx-col--lg-9, .fx-col--lg-10, .fx-col--lg-11, .fx-col--lg-12, .fx-col--lg,
-.fx-col--lg-auto, .fx-col--xl-1, .fx-col--xl-2, .fx-col--xl-3, .fx-col--xl-4, .fx-col--xl-5, .fx-col--xl-6, .fx-col--xl-7, .fx-col--xl-8, .fx-col--xl-9, .fx-col--xl-10, .fx-col--xl-11, .fx-col--xl-12, .fx-col--xl,
-.fx-col--xl-auto {
-  
-}
-
-.fx-col-auto {
+.fx-col--auto {
   flex: 0 0 auto;
   width: auto;
   max-width: none;
@@ -647,7 +661,6 @@ template {
 }
 
 @media (min-width: 992px) {
-
   .fx-col--lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -768,31 +781,6 @@ template {
     max-width: 100%;
   }
 }
-
-
-/* ========== grid ========== */
-
-.fx-container {
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
-}
-.fx-container-xs {
-	max-width: 576px;
-}
-.fx-container-sm {
-	max-width: 768px;
-}
-.fx-container-md {
-	max-width: 992px;
-}
-.fx-container-lg {
-	max-width: 1200px;
-}
-.fx-container-xl {
-	max-width: 1400px;
-}
-
 
 /* ---------- grid - flexible - alignment ---------- */
 
