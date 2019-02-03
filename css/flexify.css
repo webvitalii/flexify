@@ -54,13 +54,9 @@ template {
 
 /* ========== general ========== */
 
-.fx-wrap * {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
+.fx-wrap *,
 .fx-wrap *:before,
 .fx-wrap *:after {
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -78,7 +74,6 @@ template {
 	margin-bottom: 15px;
 	border: 0;
 	border-top: 1px solid #eee;
-	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
@@ -146,6 +141,12 @@ template {
 
 /* ---------- typography - headers ---------- */
 
+.fx-h1,
+.fx-h2,
+.fx-h3,
+.fx-h4,
+.fx-h5,
+.fx-h6,
 .fx-wrap h1,
 .fx-wrap h2,
 .fx-wrap h3,
@@ -160,26 +161,32 @@ template {
 	color: inherit;
 }
 
+.fx-h1,
 .fx-wrap h1 {
 	font-size: 40px;
 }
 
+.fx-h2,
 .fx-wrap h2 {
 	font-size: 32px;
 }
 
+.fx-h3,
 .fx-wrap h3 {
 	font-size: 28px;
 }
 
+.fx-h4,
 .fx-wrap h4 {
 	font-size: 24px;
 }
 
+.fx-h5,
 .fx-wrap h5 {
 	font-size: 20px;
 }
 
+.fx-h6,
 .fx-wrap h6 {
 	font-size: 16px;
 }

@@ -10,7 +10,7 @@
 			<ul>
 				<li><a href="index.php">Flexify Home</a></li>
 				
-				<li><a href="grid.php">Grid</a></li>
+				<li><a href="grid.html">Grid</a></li>
 				
 				<li class="page_item_has_children"><a href="typography.php">Content</a>
 					<ul>
