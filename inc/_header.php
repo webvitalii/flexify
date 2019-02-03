@@ -31,7 +31,7 @@ if( $title == 'Index' ) {
 
 <?php include('_menu.php'); ?>
 
-<div class="fx-container fx-container-lg">
+<div class="fx-container fx-container--xl">
 
 	<div class="fx-row">
 		

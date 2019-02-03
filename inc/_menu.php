@@ -1,7 +1,7 @@
 
 <div class="fx-fixed-top fx-bg-gray-darkest">
 
-<div class="fx-container fx-container-lg">
+<div class="fx-container fx-container--xl">
 
 <div class="fx-row">
 	<div class="fx-col-12">
@@ -39,7 +39,7 @@
 	
 </div><!-- .fx-row -->
 
-</div><!-- .fx-container fx-container-lg -->
+</div><!-- .fx-container -->
 
 </div><!-- .fx-fixed-top -->
 

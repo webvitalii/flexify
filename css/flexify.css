@@ -421,21 +421,24 @@ template {
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
 }
-.fx-container--xs {
+
+.fx-container--sm {
 	max-width: 576px;
 }
-.fx-container--sm {
+
+.fx-container--md {
 	max-width: 768px;
 }
-.fx-container--md {
+
+.fx-container--lg {
 	max-width: 992px;
 }
-.fx-container--lg {
-	max-width: 1200px;
-}
+
 .fx-container--xl {
-	max-width: 1400px;
+	max-width: 1200px;
 }
 
 /* ---------- grid - row/col ---------- */
