@@ -1,5 +1,5 @@
 
-<div class="fx-fixed-top fx-bg-gray-darkest">
+<section class="fx-bg-gray-darkest">
 
 <div class="fx-container fx-container--xl">
 
@@ -41,6 +41,4 @@
 
 </div><!-- .fx-container -->
 
-</div><!-- .fx-fixed-top -->
-
-<div style="height: 45px;"></div>
+</section>
