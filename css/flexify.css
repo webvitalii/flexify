@@ -1,71 +1,26 @@
 /*
- * flexify frontend framework v0.4
+ * flexify frontend framework v0.5
  * http://flexify.universio.net/
  * Licensed under GPLv3 http://www.gnu.org/licenses/gpl.html
  */
- 
-/* ========== normalize.css ========== */
 
-/* github.com/necolas/normalize.css */
-html {
-	font-family: sans-serif;
-	line-height: 1.15;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
-
-body {
-	margin: 0;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-	display: block;
-}
-
-audio,
-canvas,
-progress,
-video {
-	display: inline-block;
-	vertical-align: baseline;
-}
-
-audio:not([controls]) {
-	display: none;
-	height: 0;
-}
-
-[hidden],
-template {
-	display: none;
-}
 
 /* ========== general ========== */
 
-.fx-wrap *,
-.fx-wrap *:before,
-.fx-wrap *:after {
-	box-sizing: border-box;
-}
-
-.fx-wrap /*body*/ {
+.fx-wrap {
+	margin: 0;
+	padding: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #333;
 	background-color: #fff;
+}
+
+.fx-wrap *,
+.fx-wrap *:before,
+.fx-wrap *:after {
+	box-sizing: border-box;
 }
 
 .fx-wrap hr {
@@ -75,6 +30,7 @@ template {
 	border: 0;
 	border-top: 1px solid #eee;
 	box-sizing: content-box;
+	overflow: visible;
 }
 
 .fx-wrap output {
