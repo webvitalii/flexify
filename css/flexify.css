@@ -191,6 +191,17 @@
   list-style-type: none;
 }
 
+.fx-list--inline {
+	padding-left: 0;
+	margin-left: 0;
+	list-style: none;
+}
+
+.fx-list--inline > li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
 .fx-list ol,
 .fx-list ul {
   margin-bottom: 0;
@@ -208,22 +219,6 @@
 .fx-wrap ol ol {
 	margin-top: 0;
 	margin-bottom: 0;
-}
-.fx-wrap .fx-list-unstyled {
-	padding-left: 0;
-	list-style: none;
-}
-
-.fx-wrap .fx-list-inline {
-	padding-left: 0;
-	margin-left: -5px;
-	list-style: none;
-}
-
-.fx-wrap .fx-list-inline > li {
-	display: inline-block;
-	padding-right: 5px;
-	padding-left: 5px;
 }
 
 .fx-wrap dl {
