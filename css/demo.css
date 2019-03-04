@@ -1,4 +1,7 @@
 .fx-demo {
     background: #cdf;
-    border: 2px solid #777;
+}
+
+.fx-demo-alt {
+    background: #fdc;
 }
