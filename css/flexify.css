@@ -404,18 +404,18 @@
 .fx-row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -15px;
   margin-right: -15px;
+  margin-left: -15px;
 }
 
 .fx-row--no-gutters {
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 }
 
 .fx-row--no-gutters > .fx-col {
-  padding-left: 0;
   padding-right: 0;
+  padding-left: 0;
 }
 
 .fx-col {
@@ -425,8 +425,8 @@
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
   padding-right: 15px;
+  padding-left: 15px;
 }
 
 .fx-col__inner {
