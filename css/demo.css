@@ -1,7 +1,11 @@
 .fx-demo {
-    background: #cdf;
+  background: #cdf;
 }
 
-.fx-demo-alt {
-    background: #fdc;
+.fx-demo--2 {
+  background: #fcd;
+}
+
+.fx-demo--3 {
+  background: #dfc;
 }
