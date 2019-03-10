@@ -24,7 +24,6 @@
 						<li><a href="menu.php">Menu</a></li>
 						<li><a href="forms.php">Forms</a></li>
 						<li><a href="columns.php">Columns</a></li>
-						<li><a href="labels.php">Labels</a></li>
 						<li><a href="helpers.php">Helpers</a></li>
 					</ul>
 				</li>
