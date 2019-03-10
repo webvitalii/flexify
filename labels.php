@@ -10,8 +10,6 @@
 		
 		<li><span class="fx-label fx-label-success">Success - fx-label fx-label-success</span></li>
 		
-		<li><span class="fx-label fx-label-info">Info - fx-label fx-label-info</span></li>
-		
 		<li><span class="fx-label fx-label-warning">Warning - fx-label fx-label-warning</span></li>
 		
 		<li><span class="fx-label fx-label-danger">Danger - fx-label fx-label-danger</span></li>

@@ -8,14 +8,14 @@
 
 		<nav class="fx-menu fx-menu-dark">
 			<ul>
-				<li><a href="index.php">Flexify Home</a></li>
+				<li><a href="index.html">Flexify Home</a></li>
 				
 				<li><a href="grid.html">Grid</a></li>
 				
-				<li class="page_item_has_children"><a href="typography.php">Content</a>
+				<li class="page_item_has_children"><a href="typography.html">Content</a>
 					<ul>
-						<li><a href="typography.php">Typography</a></li>
-						<li><a href="tables.php">Tables</a></li>
+						<li><a href="typography.html">Typography</a></li>
+						<li><a href="tables.html">Tables</a></li>
 					</ul>
 				</li>
 				

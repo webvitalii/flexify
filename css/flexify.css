@@ -4,6 +4,17 @@
  * Licensed under GPLv3 http://www.gnu.org/licenses/gpl.html
  */
 
+/* ========== variables ========== */
+:root {
+  --primary-h: 232;
+  --success-h: 134;
+  --danger-h: 354;
+  --bg-s: 100%;
+  --bg-l: 70%;
+  --bg-primary: hsl( var(--primary-h), var(--bg-s), var(--bg-l) );
+  --bg-success: hsl( var(--success-h), var(--bg-s), var(--bg-l) );
+  --bg-danger: hsl( var(--danger-h), var(--bg-s), var(--bg-l) );
+}
 
 /* ========== general ========== */
 
@@ -1403,10 +1414,6 @@
 	background-color: #5cb85c;
 }
 
-.fx-label-info {
-	background-color: #5bc0de;
-}
-
 .fx-label-warning {
 	background-color: #f0ad4e;
 }
@@ -1415,39 +1422,25 @@
 	background-color: #d9534f;
 }
 
-/* ========== helpers ========== */
+/* ========== utilities ========== */
 
-.fx-clearfix {}
-.fx-clearfix:before,
-.fx-clearfix:after {
-	display: table;
-	content: " ";
+
+/* ---------- utilities - bg color ---------- */
+
+.fx-u-bg-primary {
+	background-color: var(--bg-primary) !important;
 }
 
-.fx-clearfix:after {
-	clear: both;
-}
-
-/* ---------- helpers - bg color ---------- */
-
-.fx-bg-primary {
-	background-color: #0275d8 !important;
-}
-
-.fx-bg-success {
-	background-color: #5cb85c !important;
-}
-
-.fx-bg-info {
-	background-color: #5bc0de !important;
+.fx-u-bg-success {
+	background-color: var(--bg-success) !important;
 }
 
 .fx-bg-warning {
 	background-color: #f0ad4e !important;
 }
 
-.fx-bg-danger {
-	background-color: #d9534f !important;
+.fx-u-bg-danger {
+	background-color: var(--bg-danger) !important;
 }
 
 .fx-bg-black {
@@ -1486,7 +1479,7 @@
 	background-color: rgb(255,255,255) !important;
 }
 
-/* ---------- helpers - text color ---------- */
+/* ---------- utilities - text color ---------- */
 
 .fx-text-primary {
 	color: #0275d8 !important;
@@ -1494,10 +1487,6 @@
 
 .fx-text-success {
 	color: #5cb85c !important;
-}
-
-.fx-text-info {
-	color: #5bc0de !important;
 }
 
 .fx-text-warning {
@@ -1544,7 +1533,7 @@
 	color: rgb(255,255,255) !important;
 }
 
-/* ---------- helpers - position ---------- */
+/* ---------- utilities - position ---------- */
 
 .fx-fixed-top {
 	position: fixed;
@@ -1569,7 +1558,7 @@
 	z-index: 1000;
 }
 
-/* ---------- helpers - text ---------- */
+/* ---------- utilities - text ---------- */
 
 .fx-text-left {
 	text-align: left;
@@ -1620,7 +1609,7 @@
 	color: #777;
 }
 
-/* ---------- helpers - position ---------- */
+/* ---------- utilities - position ---------- */
 
 .fx-center-block {
 	display: block;
@@ -1640,7 +1629,7 @@
 	position: fixed;
 }
 
-/* ---------- helpers - visibility ---------- */
+/* ---------- utilities - visibility ---------- */
 
 .fx-hide {
 	display: none !important;
@@ -1652,39 +1641,4 @@
 
 .fx-invisible {
 	visibility: hidden;
-}
-
-/* ---------- helpers - icons ---------- */
-
-.fx-icon {
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	font-size: 16px;
-	line-height: 1;
-	text-decoration: inherit;
-	font-weight: 400;
-	font-style: normal;
-	vertical-align: baseline;
-	text-align: center;
-	transition: color .1s ease-in 0;
-	-webkit-font-smoothing: antialiased;
-}
-
-.fx-icon-20 {
-	width: 20px;
-	height: 20px;
-	font-size: 20px;
-}
-
-.fx-icon-30 {
-	width: 30px;
-	height: 30px;
-	font-size: 30px;
-}
-
-.fx-icon-40 {
-	width: 40px;
-	height: 40px;
-	font-size: 40px;
 }

@@ -8,8 +8,6 @@
 	
 	<div class="fx-bg-success fx-padding-all">.fx-bg-success</div>
 	
-	<div class="fx-bg-info fx-padding-all">.fx-bg-info</div>
-	
 	<div class="fx-bg-warning fx-padding-all">.fx-bg-warning</div>
 	
 	<div class="fx-bg-danger fx-padding-all">.fx-bg-danger</div>
@@ -38,8 +36,6 @@
 	<div class="fx-text-primary fx-padding-all">.fx-text-primary</div>
 	
 	<div class="fx-text-success fx-padding-all">.fx-text-success</div>
-	
-	<div class="fx-text-info fx-padding-all">.fx-text-info</div>
 	
 	<div class="fx-text-warning fx-padding-all">.fx-text-warning</div>
 	
