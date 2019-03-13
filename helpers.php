@@ -99,19 +99,19 @@
 	
 	<h2>Text helper classes</h2>
 	
-	<div class="fx-text-left fx-padding-all fx-margin-bottom fx-demo">.fx-text-left - aligning text to left</div>
+	<div class="fx-text-left fx-padding-all fx-margin-bottom fx-u-bg-primary">.fx-text-left - aligning text to left</div>
 	
-	<div class="fx-text-center fx-padding-all fx-margin-bottom fx-demo">.fx-text-center - aligning text to center</div>
+	<div class="fx-text-center fx-padding-all fx-margin-bottom fx-u-bg-primary">.fx-text-center - aligning text to center</div>
 	
-	<div class="fx-text-right fx-padding-all fx-margin-bottom fx-demo">.fx-text-right - aligning text to right</div>
+	<div class="fx-text-right fx-padding-all fx-margin-bottom fx-u-bg-primary">.fx-text-right - aligning text to right</div>
 	
-	<div class="fx-text-lowercase fx-padding-all fx-margin-bottom fx-demo">.fx-text-lowercase - lowercase text</div>
+	<div class="fx-text-lowercase fx-padding-all fx-margin-bottom fx-u-bg-primary">.fx-text-lowercase - lowercase text</div>
 	
-	<div class="fx-text-uppercase fx-padding-all fx-margin-bottom fx-demo"><span class="fx-text-lowercase">.fx-text-uppercase</span> - uppercase text</div>
+	<div class="fx-text-uppercase fx-padding-all fx-margin-bottom fx-u-bg-primary"><span class="fx-text-lowercase">.fx-text-uppercase</span> - uppercase text</div>
 	
-	<div class="fx-text-capitalize fx-padding-all fx-margin-bottom fx-demo"><span class="fx-text-lowercase">.fx-text-capitalize</span> - capitalize text</div>
+	<div class="fx-text-capitalize fx-padding-all fx-margin-bottom fx-u-bg-primary"><span class="fx-text-lowercase">.fx-text-capitalize</span> - capitalize text</div>
 	
-	<div class="fx-text-mute fx-padding-all fx-margin-bottom fx-demo">.fx-text-mute - mute text</div>
+	<div class="fx-text-mute fx-padding-all fx-margin-bottom fx-u-bg-primary">.fx-text-mute - mute text</div>
 
 	<h2>Visibility helper classes</h2>
 

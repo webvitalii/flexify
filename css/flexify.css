@@ -10,7 +10,7 @@
   --success-h: 134;
   --danger-h: 354;
   --bg-s: 100%;
-  --bg-l: 70%;
+  --bg-l: 85%;
   --bg-primary: hsl( var(--primary-h), var(--bg-s), var(--bg-l) );
   --bg-success: hsl( var(--success-h), var(--bg-s), var(--bg-l) );
   --bg-danger: hsl( var(--danger-h), var(--bg-s), var(--bg-l) );

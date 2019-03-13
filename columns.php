@@ -14,44 +14,44 @@
 		<li>.fx-columns .fx-columns-8 - 8 columns</li>
 	</ul>
 
-	<div class="fx-columns fx-columns-3 fx-demo">
-		<div class="fx-column fx-demo">
+	<div class="fx-columns fx-columns-3 fx-u-bg-primary">
+		<div class="fx-column fx-u-bg-primary">
 			<h1>Header</h1>
 			<p>Avoid any column break within this block.</p>
 		</div>
-		<div class="fx-column fx-demo">
-			<h1>Header</h1>
-			<p>Avoid any column break within this block.</p>
-			<p>Avoid any column break within this block.</p>
-		</div>
-		<div class="fx-column fx-demo">
-			<h1>Header</h1>
-			<p>Avoid any column break within this block.</p>
-			<p>Avoid any column break within this block.</p>
-			<p>Avoid any column break within this block.</p>
-		</div>
-		<div class="fx-column fx-demo">
+		<div class="fx-column fx-u-bg-primary">
 			<h1>Header</h1>
 			<p>Avoid any column break within this block.</p>
 			<p>Avoid any column break within this block.</p>
 		</div>
-		<div class="fx-column fx-demo">
+		<div class="fx-column fx-u-bg-primary">
 			<h1>Header</h1>
 			<p>Avoid any column break within this block.</p>
 			<p>Avoid any column break within this block.</p>
 			<p>Avoid any column break within this block.</p>
 		</div>
-		<div class="fx-column fx-demo">
+		<div class="fx-column fx-u-bg-primary">
 			<h1>Header</h1>
 			<p>Avoid any column break within this block.</p>
 			<p>Avoid any column break within this block.</p>
 		</div>
-		<div class="fx-column fx-demo">
+		<div class="fx-column fx-u-bg-primary">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-u-bg-primary">
 			<h1>Header</h1>
 			<p>Avoid any column break within this block.</p>
 			<p>Avoid any column break within this block.</p>
 		</div>
-		<div class="fx-column fx-demo">
+		<div class="fx-column fx-u-bg-primary">
+			<h1>Header</h1>
+			<p>Avoid any column break within this block.</p>
+			<p>Avoid any column break within this block.</p>
+		</div>
+		<div class="fx-column fx-u-bg-primary">
 			<h1>Header</h1>
 			<p>Avoid any column break within this block.</p>
 			<p>Avoid any column break within this block.</p>

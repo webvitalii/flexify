@@ -23,8 +23,6 @@ if( $title == 'Index' ) {
 	
 	<link href="css/flexify.css" rel="stylesheet" />
 
-	<link href="css/demo.css" rel="stylesheet" />
-
 </head>
 
 <body class="fx-wrap">
