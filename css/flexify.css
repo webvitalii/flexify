@@ -7,13 +7,29 @@
 /* ========== variables ========== */
 :root {
   --primary-h: 232;
-  --success-h: 134;
   --danger-h: 354;
+  --warning-h: 45;
+  --success-h: 134;
+  --dark-h: 0;
+  --light-h: 0;
+  
   --bg-s: 100%;
   --bg-l: 85%;
   --bg-primary: hsl( var(--primary-h), var(--bg-s), var(--bg-l) );
-  --bg-success: hsl( var(--success-h), var(--bg-s), var(--bg-l) );
   --bg-danger: hsl( var(--danger-h), var(--bg-s), var(--bg-l) );
+  --bg-warning: hsl( var(--warning-h), var(--bg-s), var(--bg-l) );
+  --bg-success: hsl( var(--success-h), var(--bg-s), var(--bg-l) );
+  --bg-dark: hsl( var(--dark-h), 10%, 10% );
+  --bg-light: hsl( var(--light-h), 10%, 100% );
+  
+  --color-s: 100%;
+  --color-l: 50%;
+  --color-primary: hsl( var(--primary-h), var(--color-s), var(--color-l) );
+  --color-danger: hsl( var(--danger-h), var(--color-s), var(--color-l) );
+  --color-warning: hsl( var(--warning-h), var(--color-s), var(--color-l) );
+  --color-success: hsl( var(--success-h), var(--color-s), var(--color-l) );
+  --color-dark: hsl( var(--dark-h), 10%, 10% );
+  --color-light: hsl( var(--light-h), 10%, 100% );
 }
 
 /* ========== general ========== */
@@ -92,17 +108,20 @@
 
 /* ========== typography ========== */
 
-.fx-wrap b,
-.fx-wrap strong {
+.fx-b,
+.fx-typography b,
+.fx-typography strong {
 	font-weight: bold;
 }
 
-.fx-wrap i,
-.fx-wrap em {
+.fx-i,
+.fx-typography i,
+.fx-typography em {
 	font-style: italic;
 }
 
-.fx-wrap p {
+.fx-p,
+.fx-typography p {
 	margin: 15px 0 15px 0;
 }
 
@@ -114,12 +133,12 @@
 .fx-h4,
 .fx-h5,
 .fx-h6,
-.fx-wrap h1,
-.fx-wrap h2,
-.fx-wrap h3,
-.fx-wrap h4,
-.fx-wrap h5,
-.fx-wrap h6 {
+.fx-typography h1,
+.fx-typography h2,
+.fx-typography h3,
+.fx-typography h4,
+.fx-typography h5,
+.fx-typography h6 {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	font-family: inherit;
@@ -129,32 +148,32 @@
 }
 
 .fx-h1,
-.fx-wrap h1 {
+.fx-typography h1 {
 	font-size: 40px;
 }
 
 .fx-h2,
-.fx-wrap h2 {
+.fx-typography h2 {
 	font-size: 32px;
 }
 
 .fx-h3,
-.fx-wrap h3 {
+.fx-typography h3 {
 	font-size: 28px;
 }
 
 .fx-h4,
-.fx-wrap h4 {
+.fx-typography h4 {
 	font-size: 24px;
 }
 
 .fx-h5,
-.fx-wrap h5 {
+.fx-typography h5 {
 	font-size: 20px;
 }
 
 .fx-h6,
-.fx-wrap h6 {
+.fx-typography h6 {
 	font-size: 16px;
 }
 
@@ -1395,106 +1414,50 @@
 	background-color: var(--bg-primary) !important;
 }
 
-.fx-u-bg-success {
-	background-color: var(--bg-success) !important;
-}
-
-.fx-bg-warning {
-	background-color: #f0ad4e !important;
-}
-
 .fx-u-bg-danger {
 	background-color: var(--bg-danger) !important;
 }
 
-.fx-bg-black {
-	background-color: rgb(0,0,0) !important;
+.fx-u-bg-warning {
+	background-color: var(--bg-warning) !important;
 }
 
-.fx-bg-gray-darkest {
-	background-color: rgb(32,32,32) !important;
+.fx-u-bg-success {
+	background-color: var(--bg-success) !important;
 }
 
-.fx-bg-gray-darker {
-	background-color: rgb(64,64,64) !important;
+.fx-u-bg-dark {
+	background-color: var(--bg-dark) !important;
 }
 
-.fx-bg-gray-dark {
-	background-color: rgb(96,96,96) !important;
+.fx-u-bg-light {
+	background-color: var(--bg-light) !important;
 }
 
-.fx-bg-gray {
-	background-color: rgb(128,128,128) !important;
+/* ---------- utilities - color ---------- */
+
+.fx-u-color-primary {
+	color: var(--color-primary) !important;
 }
 
-.fx-bg-gray-light {
-	background-color: rgb(160,160,160) !important;
+.fx-u-color-danger {
+	color: var(--color-danger) !important;
 }
 
-.fx-bg-gray-lighter {
-	background-color: rgb(192,192,192) !important;
+.fx-u-color-warning {
+	color: var(--color-warning) !important;
 }
 
-.fx-bg-gray-lightest {
-	background-color: rgb(224,224,224) !important;
+.fx-u-color-success {
+	color: var(--color-success) !important;
 }
 
-.fx-bg-white {
-	background-color: rgb(255,255,255) !important;
+.fx-u-color-dark {
+	color: var(--color-dark) !important;
 }
 
-/* ---------- utilities - text color ---------- */
-
-.fx-text-primary {
-	color: #0275d8 !important;
-}
-
-.fx-text-success {
-	color: #5cb85c !important;
-}
-
-.fx-text-warning {
-	color: #f0ad4e !important;
-}
-
-.fx-text-danger {
-	color: #d9534f !important;
-}
-
-.fx-text-black {
-	color: rgb(0,0,0) !important;
-}
-
-.fx-text-gray-darkest {
-	color: rgb(32,32,32) !important;
-}
-
-.fx-text-gray-darker {
-	color: rgb(64,64,64) !important;
-}
-
-.fx-text-gray-dark {
-	color: rgb(96,96,96) !important;
-}
-
-.fx-text-gray {
-	color: rgb(128,128,128) !important;
-}
-
-.fx-text-gray-light {
-	color: rgb(160,160,160) !important;
-}
-
-.fx-text-gray-lighter {
-	color: rgb(192,192,192) !important;
-}
-
-.fx-text-gray-lightest {
-	color: rgb(224,224,224) !important;
-}
-
-.fx-text-white {
-	color: rgb(255,255,255) !important;
+.fx-u-color-light {
+	color: var(--color-light) !important;
 }
 
 /* ---------- utilities - position ---------- */
