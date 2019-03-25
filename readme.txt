@@ -5,7 +5,8 @@ http://flexify.universio.net/
 
 == to-do: ==
 
-* [columns] responsive columns
+* [grid] .fx-col--auto
+* [typography] add .fx-typography class
 * [menu] menu black, menu fixed
 * [menu] menu dark, menu lite
 * [tables]
