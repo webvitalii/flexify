@@ -1,28 +1,33 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Buttons | Flexify Frontend Framework</title>
-	
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Flexify Frontend Framework</title>
+
 	<link href="css/flexify.css" rel="stylesheet" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
 </head>
 
 <body class="fx-wrap">
 
 
+
 <section class="fx-bg-gray-darkest">
 
 	<div class="fx-container fx-container--xl">
 
-		<nav class="fx-menu fx-menu-dark">
+		<nav class="fx-menu fx-u-bg-dark fx-u-color-light">
 			<ul>
-				<li><a href="index.html">Flexify Home</a></li>
+				<li class="page_item_has_children"><a href="index.html">Flexify Home</a>
+					<ul>
+						<li><a href="faq.php">FAQ</a></li>
+					</ul>
+				</li>
 				
 				<li><a href="grid.html">Grid</a></li>
 				
@@ -39,12 +44,11 @@
 						<li><a href="menu.php">Menu</a></li>
 						<li><a href="forms.php">Forms</a></li>
 						<li><a href="columns.php">Columns</a></li>
-						<li><a href="labels.php">Labels</a></li>
 						<li><a href="helpers.php">Helpers</a></li>
 					</ul>
 				</li>
 				
-				<li><a href="faq.php">FAQ</a></li>
+				<li><a href="utilities.html">Utilities</a></li>
 				
 				<li><a href="https://github.com/webvitalii/flexify/">GitHub</a></li>
 			</ul>
@@ -59,7 +63,8 @@
 
 	<div class="fx-row">
 		
-		<section class="fx-col fx-col--9 fx-padding-all">
+		<section class="fx-col fx-col--9">
+
 
 			<h1 class="fx-h1">Buttons</h1>
 			
@@ -86,13 +91,14 @@
 			<button type="button" class="fx-btn fx-btn--success" disabled>.fx-btn--success</button>
 			
 			<button type="button" class="fx-btn fx-btn--danger" disabled>.fx-btn--danger</button>
+
 	
-		</section><!-- .fx-col .fx-padding-all -->
+		</section><!-- .fx-col -->
 		
 
 
 
-		<aside class="fx-col fx-col--3 fx-padding-all fx-bg-gray-lightest">
+		<aside class="fx-col fx-col--3 fx-bg-gray-lightest">
 			
 			<div class="fx-text-center fx-margin-bottom">
 				<a href="https://codecanyon.net/item/silver-bullet-pro/15171769?ref=webvitalii" target="_blank" title="Speedup WordPress">
@@ -124,7 +130,7 @@
 		
 	</div><!-- .fx-row -->
 	
-	<footer class="site-footer fx-text-right fx-padding-all">
+	<footer class="site-footer fx-text-right">
 		<a href="http://universio.net/" target="_blank">Developed by Universio.net</a>
 	</footer>
 	
