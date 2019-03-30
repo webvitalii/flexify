@@ -5,8 +5,13 @@ http://web-profile.net/flexify/
 
 == to-do: ==
 
+* [color] add default color - grey
+* [component] card
+* [component] responsive columns
+* [typography] add fx-typography class and remove fx-wrap class
+* [component] input addon
+* [component] media object
 * [grid] .fx-col--auto
-* [typography] add .fx-typography class
 * [menu] menu black, menu fixed
 * [menu] menu dark, menu lite
 * [tables]
@@ -19,5 +24,5 @@ http://web-profile.net/flexify/
 * [media] comments
 * [component] .fx-block (header, body, footer)
 * [utility] order classes
-* [general] Python generate script
-
+* [utility] padding classes
+* [utility] margin classes
