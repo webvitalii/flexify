@@ -6,9 +6,13 @@
 <div class="fx-row">
 	<div class="fx-col-12">
 
-		<nav class="fx-menu fx-menu-dark">
+		<nav class="fx-menu">
 			<ul>
-				<li><a href="index.html">Flexify Home</a></li>
+				<li class="page_item_has_children"><a href="index.html">Flexify Home</a>
+					<ul>
+						<li><a href="faq.html">FAQ</a></li>
+					</ul>
+				</li>
 				
 				<li><a href="grid.html">Grid</a></li>
 				
@@ -19,18 +23,18 @@
 					</ul>
 				</li>
 				
-				<li class="page_item_has_children"><a href="menu.php">Components</a>
+				<li class="page_item_has_children"><a href="buttons.html">Components</a>
 					<ul>
+						<li><a href="buttons.html">Buttons</a></li>
+						<li><a href="columns.html">Columns</a></li>
 						<li><a href="menu.php">Menu</a></li>
 						<li><a href="forms.php">Forms</a></li>
-						<li><a href="columns.php">Columns</a></li>
-						<li><a href="helpers.php">Helpers</a></li>
 					</ul>
 				</li>
 				
-				<li><a href="faq.php">FAQ</a></li>
+				<li><a href="utilities.html">Utilities</a></li>
 				
-				<li><a href="//github.com/webvitalii/flexify/">GitHub</a></li>
+				<li><a href="https://github.com/webvitalii/flexify/">GitHub</a></li>
 			</ul>
 		</nav><!-- .fx-menu -->
 

@@ -1,5 +1,5 @@
 /*
- * flexify frontend framework v0.5
+ * Flexify Frontend Framework v.0.5
  * http://web-profile.net/flexify/
  * Licensed under GPLv3 http://www.gnu.org/licenses/gpl.html
  */
@@ -1438,110 +1438,81 @@
 
 /* ---------- utilities - position ---------- */
 
-.fx-fixed-top {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 1000;
+.fx-u-position-static {
+  position: static !important;
 }
 
-.fx-fixed-bottom {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	z-index: 1000;
+.fx-u-position-relative {
+  position: relative !important;
 }
 
-.fx-sticky-top {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	z-index: 1000;
+.fx-u-position-absolute {
+  position: absolute !important;
+}
+
+.fx-u-position-fixed {
+  position: fixed !important;
+}
+
+.fx-u-position-sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
 }
 
 /* ---------- utilities - text ---------- */
 
-.fx-text-left {
-	text-align: left;
+.fx-u-text-left {
+	text-align: left !important;
 }
 
-.fx-text-right {
-	text-align: right;
+.fx-u-text-right {
+	text-align: right !important;
 }
 
-.fx-text-center {
-	text-align: center;
+.fx-u-text-center {
+	text-align: center !important;
 }
 
-.fx-text-justify {
-	text-align: justify;
+.fx-u-text-justify {
+	text-align: justify !important;
 }
 
-.fx-text-nowrap {
-	white-space: nowrap;
+.fx-u-text-nowrap {
+	white-space: nowrap !important;
 }
 
-.fx-text-truncate {
+.fx-u-text-lowercase {
+	text-transform: lowercase !important;
+}
+
+.fx-u-text-uppercase {
+	text-transform: uppercase !important;
+}
+
+.fx-u-text-capitalize {
+	text-transform: capitalize !important;
+}
+
+.fx-u-text-truncate {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
 
-.fx-text-lowercase {
-	text-transform: lowercase;
-}
-
-.fx-text-uppercase {
-	text-transform: uppercase;
-}
-
-.fx-text-capitalize {
-	text-transform: capitalize;
-}
-
-.fx-text-hide {
-	color: transparent;
-	text-shadow: none;
-	background-color: transparent;
-	border: 0;
-}
-
-.fx-text-mute {
+.fx-u-text-mute {
 	color: #777;
-}
-
-/* ---------- utilities - position ---------- */
-
-.fx-center-block {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.fx-pull-right {
-	float: right !important;
-}
-
-.fx-pull-left {
-	float: left !important;
-}
-
-.fx-affix {
-	position: fixed;
 }
 
 /* ---------- utilities - visibility ---------- */
 
-.fx-hide {
+.fx-u-hide {
 	display: none !important;
 }
 
-.fx-show {
+.fx-u-show {
 	display: block !important;
 }
 
-.fx-invisible {
-	visibility: hidden;
+.fx-u-invisible {
+	visibility: hidden !important;
 }
