@@ -26,3 +26,7 @@ http://web-profile.net/flexify/
 * [utility] order classes
 * [utility] padding classes
 * [utility] margin classes
+
+== future: ==
+[component:grid] .fx-row--gap-sm, .fx-row--gap-lg
+[component:columns] .fx-columns--gap-sm, .fx-columns--gap-lg

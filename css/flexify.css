@@ -438,12 +438,12 @@
   margin-left: -15px;
 }
 
-.fx-row--no-gutters {
+.fx-row--gap-none {
   margin-right: 0;
   margin-left: 0;
 }
 
-.fx-row--no-gutters > .fx-col {
+.fx-row--gap-none > .fx-col {
   padding-right: 0;
   padding-left: 0;
 }
@@ -1334,6 +1334,12 @@
   -webkit-column-count: 1;
 	-moz-column-count: 1;
 	column-count: 1;
+}
+
+.fx-columns--gap-none {
+	-webkit-column-gap: 0;
+	-moz-column-gap: 0;
+	column-gap: 0;
 }
 
 .fx-columns--1 {
