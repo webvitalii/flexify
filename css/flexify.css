@@ -403,6 +403,71 @@
 
 /* ========== grid ========== */
 
+.fx-grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); */
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 30px;
+}
+
+.fx-grid--gap-none {
+  grid-gap: 0;
+}
+
+.fx-grid__cell {
+  grid-column: span 1;
+}
+
+.fx-grid__cell--1 {
+  grid-column: span 1;
+}
+
+.fx-grid__cell--2 {
+  grid-column: span 2;
+}
+
+.fx-grid__cell--3 {
+  grid-column: span 3;
+}
+
+.fx-grid__cell--4 {
+  grid-column: span 4;
+}
+
+.fx-grid__cell--5 {
+  grid-column: span 5;
+}
+
+.fx-grid__cell--6 {
+  grid-column: span 6;
+}
+
+.fx-grid__cell--7 {
+  grid-column: span 7;
+}
+
+.fx-grid__cell--8 {
+  grid-column: span 8;
+}
+
+.fx-grid__cell--9 {
+  grid-column: span 9;
+}
+
+.fx-grid__cell--10 {
+  grid-column: span 10;
+}
+
+.fx-grid__cell--11 {
+  grid-column: span 11;
+}
+
+.fx-grid__cell--12 {
+  grid-column: span 12;
+}
+
+
+
 /* ---------- grid - container ---------- */
 
 .fx-container {
@@ -429,7 +494,7 @@
 	max-width: 1200px;
 }
 
-/* ---------- grid - row/col ---------- */
+/* ---------- grid (flexbox) - row/col ---------- */
 
 .fx-row {
   display: flex;

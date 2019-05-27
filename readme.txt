@@ -28,5 +28,10 @@ http://web-profile.net/flexify/
 * [utility] margin classes
 
 == future: ==
+
 [component:grid] .fx-row--gap-sm, .fx-row--gap-lg
 [component:columns] .fx-columns--gap-sm, .fx-columns--gap-lg
+
+== maybe: ==
+
+* add 24 cells grid
