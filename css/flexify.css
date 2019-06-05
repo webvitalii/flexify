@@ -407,11 +407,16 @@
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); */
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 30px;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
 }
 
-.fx-grid--gap-none {
-  grid-gap: 0;
+.fx-grid--row-gap-none {
+  grid-row-gap: 0;
+}
+
+.fx-grid--col-gap-none {
+  grid-column-gap: 0;
 }
 
 .fx-grid__cell {
