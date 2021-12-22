@@ -2,6 +2,8 @@
 
 Website generator.
 
+> python simplex-generate.py
+
 == to-do: ==
 
 * render content of the page into the template

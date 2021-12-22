@@ -71,38 +71,53 @@
 		<section class="fx-col fx-col--9 fx-typography">
 
 
-			<h1 class="fx-h1">Tables</h1>
+			<h1 class="fx-h1">Form controls</h1>
 			
-			<h3 class="fx-h3">Add class .fx-table to the html table element</h3>
+			<h3 class="fx-h3">Text input</h3>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlText">Text input</label>
+				<input type="text" class="fx-control" id="exampleFormControlText" value="Text">
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlEmail">Email address</label>
+				<input type="email" class="fx-control" id="exampleFormControlEmail" value="mail@site.com">
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlTextDisabled">Disabled text input</label>
+				<input type="text" class="fx-control" id="exampleFormControlTextDisabled" value="Disabled" disabled>
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlTextReadonly">Readonly text input</label>
+				<input type="text" class="fx-control" id="exampleFormControlTextReadonly" value="Readonly" readonly>
+			</div>
+
 			
-			<table class="fx-table">
-				<thead>
-					<tr>
-						<th>#</th>
-						<th>First Name</th>
-						<th>Last Name</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>Brenda</td>
-						<td>Bear</td>
-					</tr>
-					
-					<tr>
-						<td>2</td>
-						<td>Frank</td>
-						<td>Fox</td>
-					</tr>
-					
-					<tr>
-						<td>3</td>
-						<td>William</td>
-						<td>Wolf</td>
-					</tr>
-				</tbody>
-			</table>
+
+			<h3 class="fx-h3">Textarea</h3>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlTextarea">Textarea</label>
+				<textarea class="fx-control fx-control--textarea" id="exampleFormControlTextarea">Textarea</textarea>
+			</div>
+
+			
+			<h3 class="fx-h3">Select</h3>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlSelect">Select</label>
+				<select class="fx-control fx-control--select" id="exampleFormControlSelect">
+					<option value="1">Option 1</option>
+					<option value="2">Option 2</option>
+					<option value="3">Option 3</option>
+				</select>
+			</div>
+			
+
+
 
 	
 		</section><!-- .fx-col -->

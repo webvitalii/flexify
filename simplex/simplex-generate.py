@@ -33,7 +33,7 @@ def simplex_generate():
             file_content = file_ref.read()
 
         output_content = template_content.replace('%%content%%', file_content)
-        with open(self_path + '/output/' + file_name, 'w') as output_ref:
+        with open(self_path + '/../' + file_name, 'w') as output_ref:
             output_ref.write(output_content)
 
 
