@@ -1170,7 +1170,9 @@
   margin-bottom: 8px;
 }
 
-.fx-control {
+.fx-input,
+.fx-textarea,
+.fx-select {
   display: block;
   width: 100%;
   padding: 6px 12px;
@@ -1189,7 +1191,20 @@
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.fx-control:focus {
+.fx-textarea {
+  min-height: 38px;
+  resize: vertical;
+}
+
+.fx-select {
+  padding-right: 36px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px 12px;
+}
+
+.fx-input:focus {
   color: #212529;
   background-color: #fff;
   border-color: #86b7fe;
@@ -1197,24 +1212,13 @@
   box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.25);
 }
 
-.fx-control:disabled, 
-.fx-control[readonly] {
+.fx-input:disabled, 
+.fx-input[readonly] {
   background-color: #e9ecef;
   opacity: 1;
 }
 
-.fx-control--textarea {
-  min-height: 38px;
-  resize: vertical;
-}
 
-.fx-control--select {
-  padding-right: 36px;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-position: right 12px center;
-  background-size: 16px 12px;
-}
 
 /* ========== buttons ========== */
 
