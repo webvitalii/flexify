@@ -48,7 +48,7 @@
 						<li><a href="buttons.html">Buttons</a></li>
 						<li><a href="controls.html">Form controls</a></li>
 						<li><a href="columns.html">Columns</a></li>
-						<li><a href="menu.php">Menu</a></li>
+						<li><a href="menu.html">Menu</a></li>
 					</ul>
 				</li>
 				
@@ -94,6 +94,8 @@
 				<input type="text" class="fx-input" id="exampleFormControlTextReadonly" value="Readonly" readonly>
 			</div>
 
+			
+
 
 			<h3 class="fx-h3">Textarea</h3>
 
@@ -108,12 +110,14 @@
 			<div class="">
 				<label class="fx-label" for="exampleFormControlSelect">Select</label>
 				<select class="fx-select" id="exampleFormControlSelect">
-					<option value="1">Option 1</option>
+					<option value="1">
+						Option 1 very long option value very long option value very long option value very long option value 
+						very long option value very long option value very long option value very long option value
+					</option>
 					<option value="2">Option 2</option>
 					<option value="3">Option 3</option>
 				</select>
 			</div>
-
 
 			<h3 class="fx-h3">Checkbox</h3>
 
@@ -139,6 +143,51 @@
 			</div>
 
 
+			<h3 class="fx-h3">Validation</h3>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlTextInvalid">Invalid text input</label>
+				<input type="text" class="fx-input fx-input--invalid" id="exampleFormControlTextInvalid" value="Invalid value">
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlTextValid">Valid text input</label>
+				<input type="text" class="fx-input fx-input--valid" id="exampleFormControlTextValid" value="Valid value">
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlTextareaInvalid">Invalid textarea</label>
+				<textarea class="fx-textarea fx-input--invalid" id="exampleFormControlTextareaInvalid">Invalid textarea</textarea>
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlTextareaValid">Valid textarea</label>
+				<textarea class="fx-textarea fx-input--valid" id="exampleFormControlTextareaValid">Valid textarea</textarea>
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlSelectInvalid">Invalid select</label>
+				<select class="fx-select fx-input--invalid" id="exampleFormControlSelectInvalid">
+					<option value="1">
+						Option 1 very long option value very long option value very long option value very long option value 
+						very long option value very long option value very long option value very long option value
+					</option>
+					<option value="2">Option 2</option>
+					<option value="3">Option 3</option>
+				</select>
+			</div>
+
+			<div class="">
+				<label class="fx-label" for="exampleFormControlSelectValid">Valid select</label>
+				<select class="fx-select fx-input--valid" id="exampleFormControlSelectValid">
+					<option value="1">
+						Option 1 very long option value very long option value very long option value very long option value 
+						very long option value very long option value very long option value very long option value
+					</option>
+					<option value="2">Option 2</option>
+					<option value="3">Option 3</option>
+				</select>
+			</div>
 
 
 	
