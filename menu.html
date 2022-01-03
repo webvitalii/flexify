@@ -17,50 +17,52 @@
 
 
 
-<section class="fx-bg-gray-darkest">
+<nav class="fx-u-bg-dark">
 
 	<div class="fx-container fx-container--xl">
 
-		<nav class="fx-menu">
-			<ul>
-				<li class="page_item_has_children"><a href="index.html">Flexify Home</a>
-					<ul>
-						<li><a href="faq.html">FAQ</a></li>
-					</ul>
-				</li>
-				
-				<li><a href="grid.html">Grid</a>
-					<ul>
-						<li><a href="grid.html">Grid (powered by CSS Grid) (beta)</a></li>
-						<li><a href="grid-flexbox.html">Grid (powered by CSS flexbox)</a></li>
-					</ul>
-				</li>
-				
-				<li class="page_item_has_children"><a href="typography.html">Content</a>
-					<ul>
-						<li><a href="typography.html">Typography</a></li>
-						<li><a href="tables.html">Tables</a></li>
-					</ul>
-				</li>
-				
-				<li class="page_item_has_children"><a href="buttons.html">Components</a>
-					<ul>
-						<li><a href="buttons.html">Buttons</a></li>
-						<li><a href="controls.html">Form controls</a></li>
-						<li><a href="columns.html">Columns</a></li>
-						<li><a href="menu.html">Menu</a></li>
-					</ul>
-				</li>
-				
-				<li><a href="utilities.html">Utilities</a></li>
-				
-				<li><a href="https://github.com/webvitalii/flexify/">GitHub</a></li>
-			</ul>
-		</nav><!-- .fx-menu -->
+		<ul class="fx-menu fx-menu--dark">
+			<li class="fx-menu__wrap-level-2">
+				<a href="index.html">Flexify Home</a>
+				<ul class="fx-menu__level-2">
+					<li><a href="faq.html">FAQ</a></li>
+				</ul>
+			</li>
+			
+			<li class="fx-menu__wrap-level-2">
+				<a href="grid.html">Grid</a>
+				<ul class="fx-menu__level-2">
+					<li><a href="grid.html">Grid (powered by CSS Grid) (beta)</a></li>
+					<li><a href="grid-flexbox.html">Grid (powered by CSS flexbox)</a></li>
+				</ul>
+			</li>
+			
+			<li class="fx-menu__wrap-level-2">
+				<a href="typography.html">Content</a>
+				<ul class="fx-menu__level-2">
+					<li><a href="typography.html">Typography</a></li>
+					<li><a href="tables.html">Tables</a></li>
+				</ul>
+			</li>
+			
+			<li class="fx-menu__wrap-level-2">
+				<a href="buttons.html">Components</a>
+				<ul class="fx-menu__level-2">
+					<li><a href="buttons.html">Buttons</a></li>
+					<li><a href="controls.html">Form controls</a></li>
+					<li><a href="columns.html">Columns</a></li>
+					<li><a href="menu.html">Menu</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="utilities.html">Utilities</a></li>
+			
+			<li><a href="https://github.com/webvitalii/flexify/">GitHub</a></li>
+		</ul><!-- .fx-menu -->
 
 	</div><!-- .fx-container -->
 
-</section>
+</nav>
 
 
 <section class="fx-container fx-container--xl">
@@ -72,49 +74,85 @@
 
 	<h1>Menu</h1>
 	
-	<p>CSS Dropdown menu with infinite depth nesting. Pure CSS, no JavaScript used.</p>
+	<p>CSS Dropdown menu with 3 level depth nesting. Pure CSS, no JavaScript needed.</p>
 	
-	<h3>Menu light. Classes: .fx-menu .fx-menu-light .fx-bg-gray-lightest</h3>
+	<h3>Transparent menu with 3 levels:</h3>
 	
-	<nav class="fx-menu fx-menu-light fx-bg-gray-lightest">
-		<ul>
-			<li><a href="index.html">Flexify</a></li>
-			<li class="page_item_has_children"><a href="#">Docs</a>
-				<ul>
-					<li><a href="#">Grid</a></li>
-					<li><a href="#">Grid</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
+	<ul class="fx-menu">
+		<li><a href="index.html">Flexify</a></li>
+		<li class="fx-menu__wrap-level-2">
+			<a href="buttons.html">Components</a>
+			<ul class="fx-menu__level-2">
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="menu.html">Menu</a></li>
+			</ul>
+		</li>
+		<li class="fx-menu__wrap-level-2">
+			<a href="buttons.html">Components</a>
+			<ul class="fx-menu__level-2">
+				<li><a href="buttons.html">Buttons</a></li>
+				<li class="fx-menu__wrap-level-3">
+					<a href="menu.html">Menu</a>
+					<ul class="fx-menu__level-3">
+						<li><a href="buttons.html">Buttons</a></li>
+						<li><a href="menu.html">Menu</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
 	
-	<h3>Menu gray. Classes: .fx-menu .fx-menu-dark .fx-bg-gray</h3>
+	<h3>Menu light gray:</h3>
 	
-	<nav class="fx-menu fx-menu-dark fx-bg-gray">
-		<ul>
-			<li><a href="index.html">Flexify</a></li>
-			<li class="page_item_has_children"><a href="#">Docs</a>
-				<ul>
-					<li><a href="#">Grid</a></li>
-					<li><a href="#">Grid</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
+	<ul class="fx-menu fx-u-bg-light">
+		<li><a href="index.html">Flexify</a></li>
+		<li class="fx-menu__wrap-level-2">
+			<a href="buttons.html">Components</a>
+			<ul class="fx-menu__level-2">
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="menu.html">Menu</a></li>
+			</ul>
+		</li>
+		<li class="fx-menu__wrap-level-2">
+			<a href="buttons.html">Components</a>
+			<ul class="fx-menu__level-2">
+				<li><a href="buttons.html">Buttons</a></li>
+				<li class="fx-menu__wrap-level-3">
+					<a href="menu.html">Menu</a>
+					<ul class="fx-menu__level-3">
+						<li><a href="buttons.html">Buttons</a></li>
+						<li><a href="menu.html">Menu</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
 	
-	<h3>Menu dark. Classes: .fx-menu .fx-menu-dark .fx-bg-gray-darkest</h3>
+	<h3>Menu dark:</h3>
 	
-	<nav class="fx-menu fx-menu-dark fx-bg-gray-darkest">
-		<ul>
-			<li><a href="index.html">Flexify</a></li>
-			<li class="page_item_has_children"><a href="#">Docs</a>
-				<ul>
-					<li><a href="#">Grid</a></li>
-					<li><a href="#">Grid</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
+	<ul class="fx-menu fx-menu--dark fx-u-bg-dark">
+		<li><a href="index.html">Flexify</a></li>
+		<li class="fx-menu__wrap-level-2">
+			<a href="buttons.html">Components</a>
+			<ul class="fx-menu__level-2">
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="menu.html">Menu</a></li>
+			</ul>
+		</li>
+		<li class="fx-menu__wrap-level-2">
+			<a href="buttons.html">Components</a>
+			<ul class="fx-menu__level-2">
+				<li><a href="buttons.html">Buttons</a></li>
+				<li class="fx-menu__wrap-level-3">
+					<a href="menu.html">Menu</a>
+					<ul class="fx-menu__level-3">
+						<li><a href="buttons.html">Buttons</a></li>
+						<li><a href="menu.html">Menu</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
 	
 		</section><!-- .fx-col -->
 		
