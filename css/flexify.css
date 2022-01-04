@@ -992,7 +992,8 @@
 	transition: all 0.3s ease;
 }
 
-.fx-menu a:hover {
+.fx-menu a:hover,
+.fx-menu__link--active {
 	color: #000;
   background-color: #ccc;
 }
