@@ -18,20 +18,14 @@ http://web-profile.net/flexify/
 * [forms] .fx-input
 * [forms] .fx-radio
 * [forms] .fx-check
-* [forms] .fx-btn, .fx-btn-block
+* [forms] .fx-btn, .fx-btn--block
 * [nav] breadcrumbs
 * [media] thumbnail
 * [media] comments
 * [component] .fx-block (header, body, footer)
 * [utility] order classes
-* [utility] padding classes
-* [utility] margin classes
 
 == future: ==
 
 [component:grid] .fx-row--gap-sm, .fx-row--gap-lg
 [component:columns] .fx-columns--gap-sm, .fx-columns--gap-lg
-
-== maybe: ==
-
-* add 24 cells grid
