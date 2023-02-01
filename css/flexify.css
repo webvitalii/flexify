@@ -1212,8 +1212,8 @@
 .fx-btn {
   display: inline-block;
   color: #fff;
-  background-color: #6c757d;
-  border: 1px solid #6c757d;
+  background-color: #343a40;
+  border: 1px solid #343a40;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
@@ -1268,25 +1268,6 @@
 .fx-btn--primary:disabled {
   background-color: #007bff;
   border-color: #007bff;
-}
-
-.fx-btn--secondary {
-  background-color: #343a40;
-  border-color: #343a40;
-}
-
-.fx-btn--secondary:hover {
-  background-color: #23272b;
-  border-color: #1d2124;
-}
-
-.fx-btn--secondary:focus {
-  box-shadow: 0 0 0 3px rgba(82, 88, 93, 0.5);
-}
-
-.fx-btn--secondary:disabled {
-  background-color: #343a40;
-  border-color: #343a40;
 }
 
 .fx-btn--success {
