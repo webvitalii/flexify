@@ -10,9 +10,9 @@
     --fx-color-white: #fff;
     --fx-color-default: #343a40;
     --fx-color-primary: #007bff;
-    --fx-color-success: #28a745;
-    --fx-color-warning: #f0c000;
     --fx-color-danger: #dc3545;
+    --fx-color-warning: #f0c000;
+    --fx-color-success: #28a745;
 
     --fx-transition: all 0.3s ease-in-out;
 
@@ -1260,9 +1260,9 @@
     border-color: var(--fx-color-primary);
 }
 
-.fx-btn--success {
-    background-color: var(--fx-color-success);
-    border-color: var(--fx-color-success);
+.fx-btn--danger {
+    background-color: var(--fx-color-danger);
+    border-color: var(--fx-color-danger);
 }
 
 .fx-btn--warning {
@@ -1270,9 +1270,9 @@
     border-color: var(--fx-color-warning);
 }
 
-.fx-btn--danger {
-    background-color: var(--fx-color-danger);
-    border-color: var(--fx-color-danger);
+.fx-btn--success {
+    background-color: var(--fx-color-success);
+    border-color: var(--fx-color-success);
 }
 
 .fx-btn--block {
@@ -1649,16 +1649,16 @@
     color: var(--fx-color-primary) !important;
 }
 
-.fx-u-color-success {
-    color: var(--fx-color-success) !important;
+.fx-u-color-danger {
+    color: var(--fx-color-danger) !important;
 }
 
 .fx-u-color-warning {
     color: var(--fx-color-warning) !important;
 }
 
-.fx-u-color-danger {
-    color: var(--fx-color-danger) !important;
+.fx-u-color-success {
+    color: var(--fx-color-success) !important;
 }
 
 /* ---------- utilities - bg color ---------- */
@@ -1679,16 +1679,16 @@
     background-color: var(--fx-color-primary) !important;
 }
 
-.fx-u-bg-success {
-    background-color: var(--fx-color-success) !important;
+.fx-u-bg-danger {
+    background-color: var(--fx-color-danger) !important;
 }
 
 .fx-u-bg-warning {
     background-color: var(--fx-color-warning) !important;
 }
 
-.fx-u-bg-danger {
-    background-color: var(--fx-color-danger) !important;
+.fx-u-bg-success {
+    background-color: var(--fx-color-success) !important;
 }
 
 /* ---------- utilities - position ---------- */
