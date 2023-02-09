@@ -85,85 +85,85 @@
 				<tr>
 					<td>Extra small and all screen sizes</td>
 					<td>0px and above</td>
-					<td>fx-col--12</td>
+					<td>fx-f__box--12</td>
 				</tr>
 				<tr>
 					<td>Small</td>
 					<td>576px and above</td>
-					<td>fx-col--sm-12</td>
+					<td>fx-f__box--sm-12</td>
 				</tr>
 				<tr>
 					<td>Medium</td>
 					<td>768px and above</td>
-					<td>fx-col--md-12</td>
+					<td>fx-f__box--md-12</td>
 				</tr>
 				<tr>
 					<td>Large</td>
 					<td>992px and above</td>
-					<td>fx-col--lg-12</td>
+					<td>fx-f__box--lg-12</td>
 				</tr>
 				<tr>
 					<td>Extra large</td>
 					<td>1200px and above</td>
-					<td>fx-col--xl-12</td>
+					<td>fx-f__box--xl-12</td>
 				</tr>
 			</table>
 			
 			<h4 class="fx-h4">Grid with equal height columns</h4>
 			
-			<div class="fx-row">
-				<div class="fx-col fx-col--3 fx-u-bg-primary">
-					.fx-col .fx-col--3 - 3/12 = 25%
+			<div class="fx-f">
+				<div class="fx-f__box fx-f__box--3 fx-u-bg-primary">
+					.fx-f__box .fx-f__box--3 - 3/12 = 25%
 				</div>
-				<div class="fx-col fx-col--6 fx-u-bg-success">
-					.fx-col .fx-col--6 - 6/12 = 50%
+				<div class="fx-f__box fx-f__box--6 fx-u-bg-success">
+					.fx-f__box .fx-f__box--6 - 6/12 = 50%
 				</div>
-				<div class="fx-col fx-col--3 fx-u-bg-danger">
-					.fx-col .fx-col--3 - 3/12 = 25%
+				<div class="fx-f__box fx-f__box--3 fx-u-bg-danger">
+					.fx-f__box .fx-f__box--3 - 3/12 = 25%
 				</div>
 			</div>
 			
-			<h4 class="fx-h4">No gap between columns (no gutters) - .fx-row--gap-none</h4>
+			<h4 class="fx-h4">No gap between columns (no gutters) - .fx-f--gap-none</h4>
 			
-			<div class="fx-row fx-row--gap-none">
-				<div class="fx-col fx-col--3 fx-u-bg-primary">
-					.fx-col .fx-col--3
+			<div class="fx-f fx-f--gap-none">
+				<div class="fx-f__box fx-f__box--3 fx-u-bg-primary">
+					.fx-f__box .fx-f__box--3
 					* * * * * * * * * * * * * * * * * * * * *
 				</div>
-				<div class="fx-col fx-col--6 fx-u-bg-success">
-					.fx-col .fx-col--6
+				<div class="fx-f__box fx-f__box--6 fx-u-bg-success">
+					.fx-f__box .fx-f__box--6
 					* * * * * * * * * * * * * * * * * * * * *
 					* * * * * * * * * * * * * * * * * * * * *
 				</div>
-				<div class="fx-col fx-col--3 fx-u-bg-danger">
-					.fx-col .fx-col--3
+				<div class="fx-f__box fx-f__box--3 fx-u-bg-danger">
+					.fx-f__box .fx-f__box--3
 					* * * * * * * * * * * * * * * * * * * * *
 				</div>
 			</div>
 			
 			<h4 class="fx-h4">Grid with nested rows and columns</h4>
 			
-			<div class="fx-row">
-				<div class="fx-col fx-col--5 fx-u-bg-primary">
-					<div class="fx-row">
-						<div class="fx-col fx-col--6 fx-u-bg-success">
+			<div class="fx-f">
+				<div class="fx-f__box fx-f__box--5 fx-u-bg-primary">
+					<div class="fx-f">
+						<div class="fx-f__box fx-f__box--6 fx-u-bg-success">
 							Nested column
 						</div>
-						<div class="fx-col fx-col--6 fx-u-bg-danger">
+						<div class="fx-f__box fx-f__box--6 fx-u-bg-danger">
 							Nested column
 						</div>
 					</div>
 				</div>
-				<div class="fx-col fx-col--2 fx-u-bg-success">
+				<div class="fx-f__box fx-f__box--2 fx-u-bg-success">
 					Column with a lot of content.<br>
 					Column with a lot of content.
 				</div>
-				<div class="fx-col fx-col--5 fx-u-bg-danger">
-					<div class="fx-row">
-						<div class="fx-col fx-col--6 fx-u-bg-primary">
+				<div class="fx-f__box fx-f__box--5 fx-u-bg-danger">
+					<div class="fx-f">
+						<div class="fx-f__box fx-f__box--6 fx-u-bg-primary">
 							Nested column
 						</div>
-						<div class="fx-col fx-col--6 fx-u-bg-success">
+						<div class="fx-f__box fx-f__box--6 fx-u-bg-success">
 							Nested column with a lot of content.
 						</div>
 					</div>
@@ -172,29 +172,29 @@
 
 			<h2>Grid - responsive</h2>
 
-			<div class="fx-row">
-				<div class="fx-col fx-col--6 fx-col--md-4 fx-col--lg-4 fx-u-bg-primary">
-					.fx-col .fx-col--2 .fx-col--md-4 fx-col--lg-4
+			<div class="fx-f">
+				<div class="fx-f__box fx-f__box--6 fx-f__box--md-4 fx-f__box--lg-4 fx-u-bg-primary">
+					.fx-f__box .fx-f__box--2 .fx-f__box--md-4 fx-f__box--lg-4
 				</div>
-				<div class="fx-col fx-col--6 fx-col--md-3 fx-col--lg-4 fx-u-bg-success">
-					.fx-col .fx-col--2 .fx-col--md-3 fx-col--lg-4
+				<div class="fx-f__box fx-f__box--6 fx-f__box--md-3 fx-f__box--lg-4 fx-u-bg-success">
+					.fx-f__box .fx-f__box--2 .fx-f__box--md-3 fx-f__box--lg-4
 				</div>
-				<div class="fx-col fx-col--12 fx-col--md-5 fx-col--lg-4 fx-u-bg-danger">
-					.fx-col .fx-col--8 .fx-col--md-5 fx-col--lg-4
+				<div class="fx-f__box fx-f__box--12 fx-f__box--md-5 fx-f__box--lg-4 fx-u-bg-danger">
+					.fx-f__box .fx-f__box--8 .fx-f__box--md-5 fx-f__box--lg-4
 				</div>
 			</div>
 			
 			<h2>Grid vertical alignment. Pure CSS, no JavaScript used.</h2>
 			
-			<div class="fx-row">
-				<div class="fx-col fx-col-4 fx-u-bg-primary">
+			<div class="fx-f">
+				<div class="fx-f__box fx-f__box--4 fx-u-bg-primary">
 					A lot of text<br>A lot of text<br>A lot of text<br>
 					A lot of text<br>A lot of text<br>A lot of text<br>
 				</div>
-				<div class="fx-col fx-col--2 fx-col-sm-align-top fx-u-bg-success">.fx-col-sm-align-top - align to top</div>
-				<div class="fx-col fx-col--2 fx-col-sm-align-middle fx-u-bg-primary">.fx-col-sm-align-middle - align to middle</div>
-				<div class="fx-col fx-col--2 fx-col-sm-align-bottom fx-u-bg-primary">.fx-col-sm-align-bottom - align to bottom</div>
-				<div class="fx-col fx-col--2 fx-u-bg-success">1 line of text</div>
+				<div class="fx-f__box fx-f__box--2 fx-f__box-sm-align-top fx-u-bg-success">.fx-f__box-sm-align-top - align to top</div>
+				<div class="fx-f__box fx-f__box--2 fx-f__box-sm-align-middle fx-u-bg-primary">.fx-f__box-sm-align-middle - align to middle</div>
+				<div class="fx-f__box fx-f__box--2 fx-f__box-sm-align-bottom fx-u-bg-primary">.fx-f__box-sm-align-bottom - align to bottom</div>
+				<div class="fx-f__box fx-f__box--2 fx-u-bg-success">1 line of text</div>
 			</div>
 
 	
