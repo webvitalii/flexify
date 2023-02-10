@@ -450,14 +450,51 @@
     grid-row-gap: var(--fx-spacer-size-0);
 }
 
+.fx-g--row-gap-1 {
+    grid-row-gap: var(--fx-spacer-size-1);
+}
+
+.fx-g--row-gap-2 {
+    grid-row-gap: var(--fx-spacer-size-2);
+}
+
+.fx-g--row-gap-3 {
+    grid-row-gap: var(--fx-spacer-size-3);
+}
+
+.fx-g--row-gap-4 {
+    grid-row-gap: var(--fx-spacer-size-4);
+}
+
+.fx-g--row-gap-5 {
+    grid-row-gap: var(--fx-spacer-size-5);
+}
+
 .fx-g--col-gap-0 {
     grid-column-gap: var(--fx-spacer-size-0);
 }
 
-.fx-g__box {
-    grid-column: span 1;
+.fx-g--col-gap-1 {
+    grid-column-gap: var(--fx-spacer-size-1);
 }
 
+.fx-g--col-gap-2 {
+    grid-column-gap: var(--fx-spacer-size-2);
+}
+
+.fx-g--col-gap-3 {
+    grid-column-gap: var(--fx-spacer-size-3);
+}
+
+.fx-g--col-gap-4 {
+    grid-column-gap: var(--fx-spacer-size-4);
+}
+
+.fx-g--col-gap-5 {
+    grid-column-gap: var(--fx-spacer-size-5);
+}
+
+.fx-g__box,
 .fx-g__box--1 {
     grid-column: span 1;
 }
@@ -504,6 +541,210 @@
 
 .fx-g__box--12 {
     grid-column: span 12;
+}
+
+@media (min-width: 576px) {
+    .fx-g__box--sm,
+    .fx-g__box--sm-1 {
+        grid-column: span 1;
+    }
+
+    .fx-g__box--sm-2 {
+        grid-column: span 2;
+    }
+
+    .fx-g__box--sm-3 {
+        grid-column: span 3;
+    }
+
+    .fx-g__box--sm-4 {
+        grid-column: span 4;
+    }
+
+    .fx-g__box--sm-5 {
+        grid-column: span 5;
+    }
+
+    .fx-g__box--sm-6 {
+        grid-column: span 6;
+    }
+
+    .fx-g__box--sm-7 {
+        grid-column: span 7;
+    }
+
+    .fx-g__box--sm-8 {
+        grid-column: span 8;
+    }
+
+    .fx-g__box--sm-9 {
+        grid-column: span 9;
+    }
+
+    .fx-g__box--sm-10 {
+        grid-column: span 10;
+    }
+
+    .fx-g__box--sm-11 {
+        grid-column: span 11;
+    }
+
+    .fx-g__box--sm-12 {
+        grid-column: span 12;
+    }
+}
+
+@media (min-width: 768px) {
+    .fx-g__box--md,
+    .fx-g__box--md-1 {
+        grid-column: span 1;
+    }
+
+    .fx-g__box--md-2 {
+        grid-column: span 2;
+    }
+
+    .fx-g__box--md-3 {
+        grid-column: span 3;
+    }
+
+    .fx-g__box--md-4 {
+        grid-column: span 4;
+    }
+
+    .fx-g__box--md-5 {
+        grid-column: span 5;
+    }
+
+    .fx-g__box--md-6 {
+        grid-column: span 6;
+    }
+
+    .fx-g__box--md-7 {
+        grid-column: span 7;
+    }
+
+    .fx-g__box--md-8 {
+        grid-column: span 8;
+    }
+
+    .fx-g__box--md-9 {
+        grid-column: span 9;
+    }
+
+    .fx-g__box--md-10 {
+        grid-column: span 10;
+    }
+
+    .fx-g__box--md-11 {
+        grid-column: span 11;
+    }
+
+    .fx-g__box--md-12 {
+        grid-column: span 12;
+    }
+}
+
+@media (min-width: 992px) {
+    .fx-g__box--lg,
+    .fx-g__box--lg-1 {
+        grid-column: span 1;
+    }
+
+    .fx-g__box--lg-2 {
+        grid-column: span 2;
+    }
+
+    .fx-g__box--lg-3 {
+        grid-column: span 3;
+    }
+
+    .fx-g__box--lg-4 {
+        grid-column: span 4;
+    }
+
+    .fx-g__box--lg-5 {
+        grid-column: span 5;
+    }
+
+    .fx-g__box--lg-6 {
+        grid-column: span 6;
+    }
+
+    .fx-g__box--lg-7 {
+        grid-column: span 7;
+    }
+
+    .fx-g__box--lg-8 {
+        grid-column: span 8;
+    }
+
+    .fx-g__box--lg-9 {
+        grid-column: span 9;
+    }
+
+    .fx-g__box--lg-10 {
+        grid-column: span 10;
+    }
+
+    .fx-g__box--lg-11 {
+        grid-column: span 11;
+    }
+
+    .fx-g__box--lg-12 {
+        grid-column: span 12;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fx-g__box--xl,
+    .fx-g__box--xl-1 {
+        grid-column: span 1;
+    }
+
+    .fx-g__box--xl-2 {
+        grid-column: span 2;
+    }
+
+    .fx-g__box--xl-3 {
+        grid-column: span 3;
+    }
+
+    .fx-g__box--xl-4 {
+        grid-column: span 4;
+    }
+
+    .fx-g__box--xl-5 {
+        grid-column: span 5;
+    }
+
+    .fx-g__box--xl-6 {
+        grid-column: span 6;
+    }
+
+    .fx-g__box--xl-7 {
+        grid-column: span 7;
+    }
+
+    .fx-g__box--xl-8 {
+        grid-column: span 8;
+    }
+
+    .fx-g__box--xl-9 {
+        grid-column: span 9;
+    }
+
+    .fx-g__box--xl-10 {
+        grid-column: span 10;
+    }
+
+    .fx-g__box--xl-11 {
+        grid-column: span 11;
+    }
+
+    .fx-g__box--xl-12 {
+        grid-column: span 12;
+    }
 }
 
 /* ========== flexbox ========== */
