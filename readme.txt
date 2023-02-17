@@ -5,27 +5,23 @@ http://web-profile.net/flexify/
 
 == to-do: ==
 
-* [color] add default color - grey
+* [color] add default bg colors (default, primary, danger, warning, success)
 * [component] card
 * [component] responsive columns
 * [typography] add fx-typography class and remove fx-wrap class
-* [component] input addon
-* [component] media object
-* [grid] .fx-col--auto
 * [menu] menu black, menu fixed
 * [menu] menu dark, menu lite
-* [tables]
-* [forms] .fx-input
-* [forms] .fx-radio
-* [forms] .fx-check
-* [forms] .fx-btn, .fx-btn--block
-* [nav] breadcrumbs
-* [media] thumbnail
-* [media] comments
-* [component] .fx-block (header, body, footer)
 * [utility] order classes
 
 == future: ==
 
-[component:grid] .fx-row--gap-sm, .fx-row--gap-lg
-[component:columns] .fx-columns--gap-sm, .fx-columns--gap-lg
+* [scss] rebuild using scss (split into blocks)
+* [scss] add option to change default config via scss variables
+* [forms] .fx-radio
+* [forms] .fx-checkbox
+* [grid] .fx-g__box--auto
+* [component] input addon
+* [component] media object
+* [nav] breadcrumbs
+* [media] thumbnail
+* [media] comments
