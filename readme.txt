@@ -1,4 +1,4 @@
-== flexify - frontend framework ==
+== Flexify frontend framework ==
 
 Responsive and flexible frontend framework.
 http://web-profile.net/flexify/
