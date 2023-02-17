@@ -1139,23 +1139,17 @@
     }
 }
 
-/* ---------- grid - flexible - alignment ---------- */
+/* ---------- grid - alignment ---------- */
 
-.fx-f__box-align-top {
-    -webkit-align-self: flex-start;
-    -ms-flex-item-align: start;
+.fx-f__box--align-top {
     align-self: flex-start;
 }
 
-.fx-f__box-align-middle {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
+.fx-f__box--align-middle {
     align-self: center;
 }
 
-.fx-f__box-align-bottom {
-    -webkit-align-self: flex-end;
-    -ms-flex-item-align: end;
+.fx-f__box--align-bottom {
     align-self: flex-end;
 }
 
