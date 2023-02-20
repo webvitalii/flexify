@@ -1,0 +1,24 @@
+{
+  "name": "Flexify",
+  "description": "Flexify frontend framework",
+  "version": "0.6.2",
+  "author": "webvitalii",
+  "license": "MIT",
+  "homepage": "http://web-profile.net/flexify/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webvitalii/flexify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webvitalii/flexify/issues"
+  },
+  "keywords": [
+    "flexbox",
+    "flex",
+    "grid",
+    "flexify",
+    "css",
+    "framework",
+	"BEM"
+  ]
+}
