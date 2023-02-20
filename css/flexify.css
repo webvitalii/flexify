@@ -1,5 +1,5 @@
 /*
- * Flexify frontend framework v.0.6.1
+ * Flexify frontend framework v.0.6.2
  * http://web-profile.net/flexify/
  * Licensed under GPLv3 http://www.gnu.org/licenses/gpl.html
  */
@@ -14,6 +14,7 @@
     --fx-color-warning: #f0c000;
     --fx-color-success: #28a745;
 
+    --fx-font-size-default: 16px;
     --fx-transition: all 0.3s ease-in-out;
 
     --fx-spacer-size-0: 0px;
@@ -31,7 +32,7 @@
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: var(--fx-font-size-default);
     line-height: 1.5;
     color: #333;
     background-color: #fff;
@@ -138,8 +139,8 @@
 .fx-typography h4,
 .fx-typography h5,
 .fx-typography h6 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: var(--fx-spacer-default);
+    margin-bottom: var(--fx-spacer-default);
     font-family: inherit;
     font-weight: 500;
     line-height: 1.2;
@@ -180,7 +181,7 @@
 
 .fx-list {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: var(--fx-spacer-default);
     list-style-type: disc;
 }
 
@@ -239,8 +240,8 @@
 
 .fx-wrap ul,
 .fx-wrap ol {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: var(--fx-spacer-default);
+    margin-bottom: var(--fx-spacer-default);
 }
 
 .fx-wrap ul ul,
@@ -253,7 +254,7 @@
 
 .fx-wrap dl {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: var(--fx-spacer-default);
 }
 
 .fx-wrap dt,
@@ -267,16 +268,16 @@
 
 .fx-wrap dd {
     margin-left: 0;
-    margin-bottom: 8px;
+    margin-bottom: var(--fx-spacer-size-1);
 }
 
 /* ---------- typography - blockquote ---------- */
 
 .fx-quote,
 .fx-wrap blockquote {
-    padding: 8px 15px;
-    margin: 15px 0 15px 0;
-    font-size: 16px;
+    padding: var(--fx-spacer-size-1) var(--fx-spacer-size-2);
+    margin: var(--fx-spacer-size-2) var(--fx-spacer-size-0);
+    font-size: var(--fx-font-size-default);
     border-left: 4px solid #eee;
     background-color: #fafafa;
 }
@@ -356,7 +357,7 @@
 }
 
 .fx-wrap address {
-    margin-bottom: 15px;
+    margin-bottom: var(--fx-spacer-default);
     font-style: normal;
     line-height: 1.5;
 }
@@ -366,19 +367,19 @@
 .fx-wrap pre,
 .fx-wrap samp {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    font-size: 16px;
+    font-size: var(--fx-font-size-default);
 }
 
 .fx-wrap code {
     padding: 3px 8px;
-    font-size: 90%;
+    font-size: var(--fx-font-size-default);
     color: #bbb;
     background-color: #f7f7f7;
 }
 
 .fx-wrap kbd {
     padding: 2px 4px;
-    font-size: 90%;
+    font-size: var(--fx-font-size-default);
     color: #fff;
     background-color: #333;
 }
@@ -393,7 +394,7 @@
     overflow: auto;
     display: block;
     margin: 0 0 15px 0;
-    font-size: 14px;
+    font-size: var(--fx-font-size-default);
     line-height: 1.5;
     color: #333;
 }
@@ -1349,7 +1350,7 @@
     width: 100%;
     padding: 0;
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: var(--fx-font-size-default);
     line-height: inherit;
     border: 0;
 }
@@ -1366,7 +1367,7 @@
 
 .fx-label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: var(--fx-spacer-size-1);;
 }
 
 .fx-label[for] {
@@ -1380,7 +1381,7 @@
     width: 100%;
     padding: 6px 12px;
     font-family: inherit;
-    font-size: 16px;
+    font-size: var(--fx-font-size-default);
     font-weight: 400;
     line-height: 1.5;
     color: var(--fx-color-default);
@@ -1454,7 +1455,7 @@
     -ms-user-select: none;
     user-select: none;
     padding: 6px 12px;
-    font-size: 16px;
+    font-size: var(--fx-font-size-default);
     line-height: 1.5;
     border-radius: 4px;
     transition: var(--fx-transition);
@@ -1519,7 +1520,7 @@
     background-color: transparent;
     width: 100%;
     max-width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: var(--fx-spacer-default);
     border-top: 2px solid #eceeef;
 }
 
