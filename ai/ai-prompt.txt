@@ -1,0 +1,6 @@
+Please create tkinter application with such environments:
+* application size is 800x600
+* add menu on the top of the application with these menu items: Chat, Settings. No need to add submenu items. Chat and Settings opens Chat and Settings pages respectfully when clicking on them.
+* on chat page add first row with Text(), second row with Entry(), and third row with 2 buttons (on the left Submit button, on the right Clear button). When clicking the Clear button the text inside of Text() is cleared.
+* on settings page add Text() 100px height (with api_key name), and below Save button. When placing api_key text into the Text() and pressing Save button the value is stored into the ai.ini file which is located in the same folder. Create the ai.ini file if it does not exist. 
+* open Chat page by default on application load
