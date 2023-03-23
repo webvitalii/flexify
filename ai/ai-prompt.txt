@@ -1,6 +1,10 @@
-Please create tkinter application with such environments:
-* application size is 800x600
-* add menu on the top of the application with these menu items: Chat, Settings. No need to add submenu items. Chat and Settings opens Chat and Settings pages respectfully when clicking on them.
-* on chat page add first row with Text(), second row with Entry(), and third row with 2 buttons (on the left Submit button, on the right Clear button). When clicking the Clear button the text inside of Text() is cleared.
-* on settings page add Text() 100px height (with api_key name), and below Save button. When placing api_key text into the Text() and pressing Save button the value is stored into the ai.ini file which is located in the same folder. Create the ai.ini file if it does not exist. 
-* open Chat page by default on application load
+Please create tkinter application with such requirenments:
+*) Pathon version is latest.
+*) Layout manager is grid.
+*) No additional styling is nesesary.
+*) No error handling or input validation is required.
+*) Application size is 800x600.
+*) Add menu on the top of the application with these menu items: Chat, Settings. No need to add submenu items. Chat and Settings opens Chat and Settings pages respectfully when clicking on them.
+*) On chat page add first row with Text(), second row with Entry(), and third row with 2 buttons (on the left Submit button, on the right Clear button). Nothing happens when clicking Submit button. When clicking the Clear button the text inside of Text() is cleared. The Text() should be named as 'output' should have a scrollbar and 100% width; Entry() should be named as 'input' and should be 100% width.
+*) On the settings page into first row add Text() 100px height and 100% width ('api_key' as input name), add  second row with Save button. When placing api_key text into the Text() and pressing Save button the value is stored into the ai.ini file which is located in the same folder. Create the ai.ini file if it does not exist. 
+*) Open Chat page by default on application load.
