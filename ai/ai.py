@@ -1,79 +1,144 @@
 import tkinter as tk
+from configparser import ConfigParser
+import openai
 
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
+        self.title('AI')
+        self.geometry('800x600')
+        self.iconbitmap('ai.ico')
 
-        # Set the window size
-        self.geometry("800x600")
+        # Create the menu
+        self.menu = tk.Menu(self)
+        self.config(menu=self.menu)
 
-        # Create a menu bar
-        menubar = tk.Menu(self)
+        self.chat_menu = tk.Menu(self.menu)
+        self.menu.add_cascade(label='Chat', command=self.show_chat_page)
 
-        # Create a chat menu
-        chat_menu = tk.Menu(menubar, tearoff=0)
-        chat_menu.add_command(label="Chat", command=self.show_chat_page)
-        menubar.add_cascade(label="Chat", menu=chat_menu)
+        self.settings_menu = tk.Menu(self.menu)
+        self.menu.add_cascade(label='Settings', command=self.show_settings_page)
 
-        # Create a settings menu
-        settings_menu = tk.Menu(menubar, tearoff=0)
-        settings_menu.add_command(label="Settings", command=self.show_settings_page)
-        menubar.add_cascade(label="Settings", menu=settings_menu)
+        # Create Chat and Settings pages
+        self.chat_page = ChatPage(self)
+        self.settings_page = SettingsPage(self)
 
-        # Add the menu bar to the window
-        self.config(menu=menubar)
-
-        # Create the chat page
-        self.chat_frame = tk.Frame(self)
-        self.chat_frame.pack(fill=tk.BOTH, expand=True)
-        self.chat_text = tk.Text(self.chat_frame)
-        self.chat_text.pack(fill=tk.BOTH, expand=True)
-        self.chat_entry = tk.Entry(self.chat_frame)
-        self.chat_entry.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        self.chat_submit_button = tk.Button(self.chat_frame, text="Submit", command=self.submit_chat_message)
-        self.chat_submit_button.pack(side=tk.LEFT)
-        self.chat_clear_button = tk.Button(self.chat_frame, text="Clear", command=self.clear_chat_text)
-        self.chat_clear_button.pack(side=tk.LEFT)
-
-        # Create the settings page
-        self.settings_frame = tk.Frame(self)
-        self.settings_frame.pack(fill=tk.BOTH, expand=True)
-        self.settings_textbox = tk.Text(self.settings_frame, height=10)
-        self.settings_textbox.pack(side=tk.TOP, fill=tk.BOTH, padx=10)
-        self.settings_save_button = tk.Button(self.settings_frame, text="Save", command=self.save_settings)
-        self.settings_save_button.pack(side=tk.BOTTOM, pady=10)
-
-        # Show the chat page by default
+        # Show Chat page by default
         self.show_chat_page()
 
     def show_chat_page(self):
-        # Show the chat frame and hide the settings frame
-        self.chat_frame.pack(fill=tk.BOTH, expand=True)
-        self.settings_frame.pack_forget()
+        self.settings_page.grid_remove()
+        self.chat_page.grid(sticky='nsew')
 
     def show_settings_page(self):
-        # Show the settings frame and hide the chat frame
-        self.settings_frame.pack(fill=tk.BOTH, expand=True)
-        self.chat_frame.pack_forget()
+        self.chat_page.grid_remove()
+        self.settings_page.load_api_key()
+        self.settings_page.grid(sticky='nsew')
 
-    def submit_chat_message(self):
-        # Get the text from the entry box and add it to the chat text box
-        message = self.chat_entry.get()
-        self.chat_text.insert(tk.END, message + "\n")
+class ChatPage(tk.Frame):
+    def __init__(self, master):
+        super().__init__(master)
 
-        # Clear the entry box
-        self.chat_entry.delete(0, tk.END)
+        self.api_key = ''
+        self.config_filename = 'ai.ini'
+        self.load_api_key()
 
-    def clear_chat_text(self):
-        # Clear the chat text box
-        self.chat_text.delete(1.0, tk.END)
+        # Configure grid
+        self.columnconfigure(0, weight=1)
+        self.rowconfigure(0, weight=1)
 
-    def save_settings(self):
-        # Save the contents of the settings textbox
-        settings = self.settings_textbox.get("1.0", tk.END)
-        # Do something with the settings, e.g. write them to a file
-        print("Settings saved:", settings.strip())
+        # Create output Text() widget with scrollbar
+        self.output = tk.Text(self, wrap='word')
+        self.output.grid(row=0, column=0, columnspan=2, sticky='nsew')
 
-if __name__ == "__main__":
+        self.scrollbar = tk.Scrollbar(self, command=self.output.yview)
+        self.scrollbar.grid(row=0, column=2, sticky='ns')
+        self.output.config(yscrollcommand=self.scrollbar.set)
+
+        # Create input Entry() widget
+        self.input = tk.Entry(self)
+        self.input.grid(row=1, column=0, columnspan=2, sticky='ew')
+
+        # Create buttons
+        self.submit_button = tk.Button(self, text='Submit', command=self.request_to_ai)
+        self.submit_button.grid(row=2, column=0, sticky='ew')
+
+        self.clear_button = tk.Button(self, text='Clear', command=self.clear_text)
+        self.clear_button.grid(row=2, column=1, sticky='ew')
+
+    def request_to_ai(self):
+        if self.input.get():
+            if self.api_key:
+                openai.api_key = self.api_key
+                # Create instance
+                openai.Model.list()
+                # Query / Response
+                response = openai.Completion.create(
+                    model = "text-davinci-003",
+                    prompt = self.input.get(),
+                    max_tokens=50,
+                    temperature=0
+                )
+                self.output.insert(tk.END, "\n\n")
+                self.output.insert(tk.END, response['choices'][0]['text'].strip())
+                self.output.insert(tk.END, "\n\n")
+                # self.output.insert(tk.END, response)
+                self.output.insert(tk.END, "\n\n")
+            else:
+                self.output.insert(tk.END, "\n\nAPI key is empty!\n\n")
+        else:
+            self.output.insert(tk.END, "\n\nThe text is empty!\n\n")
+
+    def clear_text(self):
+        self.output.delete(1.0, tk.END)
+    
+    def load_api_key(self):
+        config = ConfigParser()
+        config.read(self.config_filename)
+
+        if config.has_option('api', 'api_key'):
+            self.api_key = config.get('api', 'api_key')
+
+class SettingsPage(tk.Frame):
+    def __init__(self, master):
+        super().__init__(master)
+
+        # Configure grid
+        self.columnconfigure(0, weight=1)
+        self.rowconfigure(0, weight=1)
+
+        # Create api_key Text() widget
+        self.api_key = tk.Text(self, wrap='word', height=6)
+        self.api_key.grid(row=0, column=0, sticky='nsew')
+
+        # Create Save button
+        self.save_button = tk.Button(self, text='Save', command=self.save_api_key)
+        self.save_button.grid(row=1, column=0, sticky='ew')
+
+        self.config_filename = 'ai.ini'
+
+    def load_api_key(self):
+        config = ConfigParser()
+        config.read(self.config_filename)
+
+        if config.has_option('api', 'api_key'):
+            api_key = config.get('api', 'api_key')
+            self.api_key.delete(1.0, tk.END)
+            self.api_key.insert(tk.END, api_key)
+
+    def save_api_key(self):
+        api_key = self.api_key.get(1.0, tk.END).strip()
+        config = ConfigParser()
+        config.read(self.config_filename)
+
+        if not config.has_section('api'):
+            config.add_section('api')
+
+        config.set('api', 'api_key', api_key)
+
+        with open(self.config_filename, 'w') as config_file:
+            config.write(config_file)
+
+if __name__ == '__main__':
     app = App()
     app.mainloop()
